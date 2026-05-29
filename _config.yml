@@ -1,10 +1,13 @@
+# Tells the metadata plugin exactly which repo to pull from
+repository: tayten0/tayten0.github.io
+
 # REQUIRED CHANGES
 # Edit next line to provide your own name.
-title: Molly Maluhia | Professional Portfolio
+title: Tayten Yau | Professional Portfolio
 # Edit next line, replacing 'techfolios' with your github username
-url: "https://techfolios.github.io"
+url: "https://tayten0.github.io"
 # Edit next line so that baseurl is "" if your repo is <username>.github.io
-baseurl: "/template"
+baseurl: ""
 
 # OPTIONAL CHANGES
 ## Specify the theme using any of the css files in css/techfolio-theme
@@ -21,6 +24,9 @@ kramdown:
 strict_front_matter: true
 mathjax: true
 exclude:
+  - vendor/
+  - .bundle/
+  - .sass-cache/
   - Gemfile
   - Gemfile.lock
   - LICENSE

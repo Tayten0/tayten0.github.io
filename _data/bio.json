@@ -1,113 +1,98 @@
 {
   "basics": {
-    "name": "Molly Maluhia",
+    "name": "Tayten Yau",
     "label": "Student",
-    "picture": "https://github.com/kambergjohnson.png",
-    "email": "molly@hawaii.edu",
-    "phone": "808-333-4444",
-    "website": "https://mmaluhia.github.io",
-    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2024.",
-    "location": { "address": "", "postalCode": "96822", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
+    "picture": "https://github.com/tayten0.png",
+    "email": "tayten.yau@gmail.com",
+    "phone": "",
+    "website": "https://tayten0.github.io",
+    "summary": "I'm currently studying for a B.S. in Computer Science at the University of Hawaii at Manoa. I expect to graduate in Fall 2027.",
+    "location": { "address": "", "postalCode": "96816", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
     "profiles": [
-      { "network": "github", "username": "mmaluhia", "url": "http://github.com/changeme" },
-      { "network": "linkedin", "username": "mollymaluhia", "url": "http://linkedin.com/in/changeme" },
-      { "network": "twitter", "username": "mollymal", "url": "http://twitter.com/changeme" },
-      { "network": "instagram", "username": "molly", "url": "http://instagram.com/changeme" }
+      { "network": "github", "username": "Tayten0", "url": "http://github.com/tayten0" },
+      { "network": "linkedin", "username": "Tayten Yau", "url": "http://linkedin.com/in/taytenyau" }
     ]
   },
   "interests": [
-    { "name": "Interactive media" },
-    { "name": "Neuromorphic Computing" },
-    { "name": "Quantum Computing" },
-    { "name": "Robotics" },
-    { "name": "3D Graphics" }
+    { "name": "Finance" },
+    { "name": "Game Development" },
+    { "name": "Software Engineering" },
+    { "name": "Web Development" }
   ],
   "skills": [
     {
       "name": "Languages and Frameworks",
-      "keywords": [ "C", "C++", "Java", "Javascript", "Assembly", "Common Lisp" ]
+      "keywords": [ "C", "C++", "Java", "PHP", "SQL" ]
     },
     {
       "name": "Toolsets/OS",
-      "keywords": [ "MacOS", "Ubuntu", "Git/GitHub", "g++", "TI LaunchPad" ]
+      "keywords": [ "Windows 11", "UNIX", "Git/GitHub" ]
     }
   ],
   "education": [
     {
       "institution": "University of Hawaii, Honolulu, HI",
-      "area": "Computer Science (expected Spring, 2018)",
+      "area": "Computer Science (expected Fall, 2027)",
       "studyType": "B.S.",
-      "startDate": "2013-09-01",
+      "startDate": "2024-08-26",
       "endDate": "Present",
-      "courses": [
+      "courses": [ "Intro to Computer Science I", "Intro to Computer Science II", "Discrete Mathematics I", "Discrete Mathematics II", "Program Structure", "Algorithms", "Software Engineering I"
       ]
     }
   ],
   "work": [
     {
-      "company": "UH Manoa Board of Publications",
-      "position": "Web Developer",
-      "website": "",
-      "startDate": "2015-08-01",
+      "company": "International Structural Engineering and Construction (ISEC) Society",
+      "position": "Full-Stack Developer",
+      "website": "isec-society.org",
+      "startDate": "2025-12-13",
       "endDate": "Present",
-      "summary": "Head of online presence for Ka Leo",
+      "summary": "Full-stack developer on the ISEC IT team.",
       "highlights": [
-        "Maintain, update, and oversee official college newspaper website",
-        "Drive, design and build student-community projects for UH Manoa"
-      ]
-    },
-    {
-      "company": "UH Information Technology Services",
-      "position": "Help Desk Consultant",
-      "website": "http://www.hawaii.edu/its/",
-      "startDate": "2015-01-01",
-      "endDate": "2016-03-15",
-      "summary": "",
-      "highlights": [
-        "Troubleshoot software, hardware and networking issues over the phone",
-        "Answer phone and email responses to the ITS Help Desk"
+        "Maintain, update, and oversee the ISEC website",
+        "Create new and improve existing systems for conference participants",
+        "Provide technical and customer support for conference participants"
       ]
     }
   ],
   "volunteer": [
     {
-      "organization": "Center for Renewable Energy and Island Sustainability",
-      "website": "http://manoa.hawaii.edu/reis",
-      "position": "Software Developer",
-      "startDate": "2016-01-01",
-      "endDate": "Present",
-      "summary": "Lead developer for weather sensing project",
+      "organization": "Scouting America",
+      "website": "https://www.scouting.org/",
+      "position": "Boy Scout/Adult Volunteer",
+      "startDate": "2014-04-01",
+      "endDate": "2026-07-31",
+      "summary": "Participated in various community service projects for non-profit beneficiaries.",
       "highlights": [
-        "Design firmware for distributed weather sensor network",
-        "Maintain custom data collection and storage infrastructure"
-      ]
-    },
-    {
-      "organization": "",
-      "website": "",
-      "position": "Professional organization involvement",
-      "startDate": "",
-      "endDate": "",
-      "summary": "",
-      "highlights": [
-        "Chair, ACM Manoa, 2016-Present",
-        "Member, IEEE Student Branch, 2014-Present",
-        "Webmaster/IT Officer, IEEE Student Branch, UH Manoa, 2012-2013"
+        "Independently planned and organized a community service project from start to completion.",
+        "Contributed to multiple service initiatives and non-profits."
       ]
     }
   ],
   "awards": [
     {
-      "title": "B+ Scholarship",
-      "date": "2013-Present",
-      "awarder": "State of Hawaii",
-      "summary": "Scholarships awarded to incoming freshmen and continuing students who complete a rigorous high school curriculum with a minimum overall GPA of 3.0 at a Hawai'i public school."
+      "title": "Mānoa Academic Merit Scholarship",
+      "date": "2024-Present",
+      "awarder": "The University of Hawaii at Manoa",
+      "summary": "Hawai’i residents with a high school cumulative GPA of 3.6 or higher will be considered for a $4,000 scholarship per year. Total $16,000 over 4 years."
     },
     {
-      "title": "First place",
-      "date": "2015",
-      "awarder": "University of Hawaii Micromouse Competition",
-      "summary": "My team won first place in 2015.  See my portfolio site for more details."
+      "title": "Dean's List",
+      "date": "May 2025",
+      "awarder": "The University of Hawaii at Manoa",
+      "summary": "Spring Semester 2025"
+    },
+    {
+      "title": "Dean's List",
+      "date": "January 2025",
+      "awarder": "The University of Hawaii at Manoa",
+      "summary": "Fall Semester 2024"
+    },
+    {
+      "title": "Eagle Scout",
+      "date": "October 2024",
+      "awarder": "Scouting America",
+      "summary": "Successfully completed all requirements needed to earn the rank of Eagle Scout."
     }
   ],
   "references": [

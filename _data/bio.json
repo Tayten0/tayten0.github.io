@@ -14,6 +14,7 @@
     ]
   },
   "interests": [
+    { "name": "Artificial Intelligence"},
     { "name": "Finance" },
     { "name": "Game Development" },
     { "name": "Software Engineering" },
@@ -44,7 +45,7 @@
     {
       "company": "International Structural Engineering and Construction (ISEC) Society",
       "position": "Full-Stack Developer",
-      "website": "isec-society.org",
+      "website": "https://isec-society.org",
       "startDate": "2025-12-13",
       "endDate": "Present",
       "summary": "Full-stack developer on the ISEC IT team.",

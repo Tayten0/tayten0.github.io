@@ -24,9 +24,9 @@ The game is built using standard web languages with a heavy focus on P5.js. Codi
 
 My old school laptop died a while ago, so the only version I could recover was an older backup saved to my school cloud drive. Because of that, this version is missing a few final features and assets, and it still has some bugs. If you still want to check it out, the code is up on GitHub! Just keep in mind that since this was a high school project meant to be played locally, all the files are just sitting in one main folder.
 
-<i>Note: I made most of the in-game assets myself, but the background art and music were not made by me. You can find the credits in the README.md file.</i>
-
 <img class="img-fluid" src="../img/mountain-game/mountain-game-level.png">
+
+<i>Note: I made most of the in-game assets myself, but the background art and music were not made by me. You can find the credits in the README.md file.</i>
 
 <hr>
 

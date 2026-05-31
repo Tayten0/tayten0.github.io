@@ -26,6 +26,8 @@ My old school laptop died a while ago, so the only version I could recover was a
 
 <i>Note: I made most of the in-game assets myself, but the background art and music were not made by me. You can find the credits in the README.md file.</i>
 
+<img class="img-fluid" src="../img/mountain-game/mountain-game-level.png">
+
 <hr>
 
 Source: <a href="https://github.com/tayten0/mountain-game"><i class="large github icon "></i>tayten0/mountain-game</a>

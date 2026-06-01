@@ -130,6 +130,10 @@ footer.navbar .nav-link:hover {
     color: var(--ts-grey6) !important;
 }
 
+.date {
+    color: var(--ts-grey6);
+}
+
 .border-top, .border-bottom {
     border-color: var(--ts-grey5) !important;
 }

@@ -89,7 +89,6 @@ a {
 header.navbar, footer.navbar {
     background-color: var(--ts-grey2);
     color: var(--bs-white);
-    border-color: transparent;
 }
 
 header.navbar .navbar-brand,
@@ -127,6 +126,10 @@ footer.navbar .nav-link:hover {
     border-color: var(--ts-yellow1);
 }
 
-.txt-muted {
-    color: var(--ts-grey6);
+.text-muted {
+    color: var(--ts-grey6) !important;
+}
+
+.border-top, .border-bottom {
+    border-color: var(--ts-grey5) !important;
 }

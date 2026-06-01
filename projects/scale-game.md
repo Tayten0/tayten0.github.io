@@ -6,6 +6,7 @@ title: "S.C.A.L.E"
 date: 2023
 published: true
 labels:
+  - Game Development
   - Godot
   - Aseprite
 summary: "A game I put together with some friends in high school for a game jam."

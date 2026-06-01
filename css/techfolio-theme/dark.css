@@ -1,4 +1,4 @@
-/* Custom Dark Theme. */
+/* Custom Dark Theme. Uses a mix of greys and yellows for a sort of tech look.*/
 
 /* Use Open Sans as the default font. */
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,700|Source+Code+Pro:300,400,500,700");
@@ -6,124 +6,122 @@
 
 /* See https://getbootstrap.com/docs/5.2/customize/css-variables/#root-variables for variables to override. */
 :root {
-  --ts-yellow1: #ffdc40;
-  --ts-yellow2: #fff1bb;
-  --ts-white: #ffffff;
-  --ts-grey1: #050505;
-  --ts-grey2: #070707;
-  --ts-grey3: #101010;
-  --ts-grey4: #111111;
-  --ts-grey5: #121212;
-  --ts-grey6: #181818;
-  --ts-grey7: #b3b3b3;
-  --bs-font-sans-serif: "Open Sans", sans-serif;
-  --bs-body-color: var(--ts-white);
-  --bs-body-bg: var(--ts-grey1);
-  --bs-link-color: var(--ts-yellow1);
-  --bs-link-hover-color: var(--ts-yellow2);
-  --tf-pill-bg: var(--ts-grey6);
-  --tf-icon-fill: var(--ts-yellow1);
-  --tf-icon-hover: var(--ts-yellow2);
-  --tf-page-bg-color: var(--ts-grey1);
-  --tf-footer-bg-color: var(--ts-grey2);
-  --tf-projects-bg-color: var(--ts-grey3);
-  --tf-essay-bg-color: var(--ts-grey4);
+    --ts-yellow1: #ffdc40;
+    --ts-yellow2: #fff1bb;
+    --ts-white: #ffffff;
+    --ts-grey1: #050505;
+    --ts-grey2: #070707;
+    --ts-grey3: #101010;
+    --ts-grey4: #111111;
+    --ts-grey5: #121212;
+    --ts-grey6: #4b4b4b;
+    --bs-font-sans-serif: "Open Sans", sans-serif;
+    --bs-body-color: var(--ts-white);
+    --bs-body-bg: var(--ts-grey1);
+    --bs-link-color: var(--ts-yellow1);
+    --bs-link-hover-color: var(--ts-yellow2);
+    --tf-pill-bg: var(--ts-grey6);
+    --tf-icon-fill: var(--ts-yellow1);
+    --tf-icon-hover: var(--ts-yellow2);
+    --tf-page-bg-color: var(--ts-grey1);
+    --tf-projects-bg-color: var(--ts-grey3);
+    --tf-essay-bg-color: var(--ts-grey4);
 }
 
 html, body {
-  background-color: var(--tf-page-bg-color);
-  color: var(--bs-body-color);
+    background-color: var(--tf-page-bg-color);
+    color: var(--bs-body-color);
 }
 
 h1,h2,h3,h4,h5 {
-  color: var(--bs-body-color);
-  font-family: Rubik;
+    color: var(--bs-body-color);
+    font-family: Rubik;
 }
 
 /* Format social media icons */
 .tf-social {
-  display: inline-block;
-  fill: var(--tf-icon-fill);
-  height: 1.5em;
-  vertical-align: -.1em;
-  width: 1.5em;
-  transition: 0.2s;
+    display: inline-block;
+    fill: var(--tf-icon-fill);
+    height: 1.5em;
+    vertical-align: -.1em;
+    width: 1.5em;
+    transition: 0.2s;
 }
 
 .tf-social:hover {
-  fill: var(--tf-icon-hover);
+    fill: var(--tf-icon-hover);
 }
 
 a {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 @media (max-width: 500px) {
-  .navbar-brand {
-    display: none;
-  }
+    .navbar-brand {
+        display: none;
+    }
 
-  .navbar-brand-mobile {
-    display: inline;
-  }
+    .navbar-brand-mobile {
+        display: inline;
+    }
 }
 
 .rounded-circle {
-  border-color: var(--tf-icon-fill);
-  border-style: solid;
-  border-width: 2px;
+    border-color: var(--tf-icon-fill);
+    border-style: solid;
+    border-width: 2px;
 }
 
 .card, .card-footer {
-  background-color: var(--ts-grey3);
-  border-color: var(--ts-grey5);
+    background-color: var(--ts-grey3);
+    border-color: var(--ts-grey5);
 }
 
 .badge {
-  background-color: var(--tf-pill-bg);
-  color: var(--bs-body-color);
+    background-color: var(--tf-pill-bg);
+    color: var(--bs-body-color);
 }
 
 .bg-gradient {
-  background: linear-gradient(180deg, var(--ts-dark-grey) 0%, var(--ts-grey2) 100%);
+    background: linear-gradient(180deg, var(--ts-dark-grey) 0%, var(--ts-grey2) 100%);
 }
 
 header.navbar, footer.navbar {
-  background-color: var(--ts-grey2);
-  color: var(--bs-white);
+    background-color: var(--ts-grey2);
+    color: var(--bs-white);
 }
 
 header.navbar .navbar-brand,
 header.navbar .nav-link,
 footer.navbar .navbar-brand,
 footer.navbar .nav-link {
-  color: var(--bs-white);
+    color: var(--bs-white);
 }
 
 header.navbar .navbar-brand:hover,
 header.navbar .nav-link:hover,
 footer.navbar .navbar-brand:hover,
 footer.navbar .nav-link:hover {
-  color: var(--ts-yellow2);
+    color: var(--ts-yellow2);
 }
 
 #essays {
-  background-color: var(--tf-essay-bg);
+    background-color: var(--tf-essay-bg);
 }
 
 .badge {
-  background-color: var(--tf-pill-bg);
-  color: var(--bs-body-color);
+    background-color: var(--tf-pill-bg);
+    color: var(--bs-body-color);
 }
 
 .btn-outline-dark {
-  color: var(--ts-yellow1);
-  border-color: var(--ts-yellow1);
+    color: var(--ts-yellow1);
+    border-color: var(--ts-yellow1);
 }
 
 .btn-outline-dark:hover,
 .btn-outline-dark:focus {
-  color: var(--ts-grey1);
-  background-color: var(--ts-yellow1);
-  border-color: var(--ts-yellow1);
+    color: var(--ts-grey1);
+    background-color: var(--ts-yellow1);
+    border-color: var(--ts-yellow1);
 }

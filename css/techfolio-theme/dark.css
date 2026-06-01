@@ -1,4 +1,4 @@
-/* Skyblue Theme: modifies the default theme to use blue in various places. */
+/* Custom Dark Theme. */
 
 /* Use Open Sans as the default font. */
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,700|Source+Code+Pro:300,400,500,700");
@@ -6,37 +6,43 @@
 
 /* See https://getbootstrap.com/docs/5.2/customize/css-variables/#root-variables for variables to override. */
 :root {
-  --tf-blue1: #076db3;
-  --tf-blue2: #1b6fa9;
-  --tf-blue3: #2f8ed0;
-  --tf-blue4: #bde3f0;
-  --tf-yellow1: #ffce39;
-  --tf-yellow2: #ffe495;
-  --bs-black: #000;
+  --ts-yellow1: #f5d545;
+  --ts-yellow2: #ffe57f;
+  --ts-black: #050505;
   --bs-white: #fff;
-  --tf-gray4: #adb5bd;
-  --tf-gray3: #6c757d;
-  --bs-gray2: #495057;
-  --bs-gray1: #343a40;
+  --ts-dark-grey: #070707;
+  --ts-grey1: #101010;
+  --ts-grey2: #111111;
+  --ts-grey3: #121212;
+  --ts-grey4: #181818;
+  --ts-grey5: #222222;
   --bs-font-sans-serif: "Open Sans", sans-serif;
-  --bs-link-color: var(--tf-yellow2);
-  --tf-pill-bg: var(--tf-gray3);
-  --tf-icon-fill: var(--tf-yellow1);
-  --tf-icon-hover: var(--tf-yellow2);
-  --tf-page-bg-color: var(--bs-black);
-  --tf-footer-bg-color: var(--tf-gray4);
-  --tf-projects-bg-color: var(--tf-gray4);
+  --bs-body-color: var(--bs-white);
+  --bs-body-bg: var(--ts-black);
+  --bs-link-color: var(--ts-yellow1);
+  --bs-link-hover-color: var(--ts-yellow2);
+  --tf-pill-bg: var(--ts-grey4);
+  --tf-icon-fill: var(--ts-yellow1);
+  --tf-icon-hover: var(--ts-yellow2);
+  --tf-page-bg-color: var(--ts-black);
+  --tf-footer-bg-color: var(--ts-grey2);
+  --tf-projects-bg-color: var(--ts-grey1);
+}
+
+html, body {
+  background-color: var(--tf-page-bg-color);
+  color: var(--bs-body-color);
 }
 
 h1,h2,h3,h4,h5 {
-  color: var(--tf-gray1);
+  color: var(--bs-body-color);
   font-family: Rubik;
 }
 
 /* Format social media icons */
 .tf-social {
   display: inline-block;
-  fill: var(--tf-yellow1);
+  fill: var(--tf-icon-fill);
   height: 1.5em;
   vertical-align: -.1em;
   width: 1.5em;
@@ -62,7 +68,21 @@ a {
 }
 
 .rounded-circle {
-  border-color: var(--tf-yellow1);
+  border-color: var(--tf-icon-fill);
   border-style: solid;
-  border-width: 1px;
+  border-width: 2px;
+}
+
+.card, .card-footer {
+  background-color: var(--ts-grey3);
+  border-color: var(--ts-grey5);
+}
+
+.badge {
+  background-color: var(--tf-pill-bg);
+  color: var(--bs-body-color);
+}
+
+.bg-gradient {
+  background: linear-gradient(180deg, var(--ts-dark-grey) 0%, var(--ts-grey2) 100%);
 }

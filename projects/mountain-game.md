@@ -6,6 +6,7 @@ title: "Climbing a Mountain: The Game"
 date: 2022
 published: true
 labels:
+  - Game Development
   - HTML
   - CSS
   - Javascript

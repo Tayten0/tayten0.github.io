@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/scale/scale-icon.png
+image: img/scale-game/scale-icon.png
 title: "S.C.A.L.E"
 date: 2023
 published: true

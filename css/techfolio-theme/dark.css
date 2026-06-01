@@ -127,9 +127,9 @@ footer.navbar .nav-link:hover {
 }
 
 .text-muted {
-    color: var(--ts-grey6);
+    color: var(--ts-grey6) !important;
 }
 
 .border-top, .border-bottom {
-    border-color: var(--ts-grey5);
+    border-color: var(--ts-grey5) !important;
 }

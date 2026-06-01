@@ -83,7 +83,7 @@ a {
 }
 
 .bg-gradient {
-    background: linear-gradient(180deg, var(--ts-dark-grey) 0%, var(--ts-grey2) 100%);
+    background: linear-gradient(180deg, var(--ts-grey6) 0%, var(--ts-grey5) 100%);
 }
 
 header.navbar, footer.navbar {

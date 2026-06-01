@@ -6,8 +6,8 @@
 
 /* See https://getbootstrap.com/docs/5.2/customize/css-variables/#root-variables for variables to override. */
 :root {
-  --ts-yellow1: #f5d545;
-  --ts-yellow2: #ffe57f;
+  --ts-yellow1: #ffdc40;
+  --ts-yellow2: #fff1bb;
   --ts-white: #ffffff;
   --ts-grey1: #050505;
   --ts-grey2: #070707;

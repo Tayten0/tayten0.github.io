@@ -1,6 +1,3 @@
-# Tells the metadata plugin exactly which repo to pull from
-repository: tayten0/tayten0.github.io
-
 # REQUIRED CHANGES
 # Edit next line to provide your own name.
 title: Tayten Yau | Professional Portfolio
@@ -24,9 +21,6 @@ kramdown:
 strict_front_matter: true
 mathjax: true
 exclude:
-  - vendor/
-  - .bundle/
-  - .sass-cache/
   - Gemfile
   - Gemfile.lock
   - LICENSE

@@ -22,7 +22,7 @@ Before we can talk about TypeScript, we have to talk about JavaScript. So, what 
 
 ### Structuring with HTML
 
-<img src="../img/TypeScript/html-logo.svg" width="450" alt="The Official HTML Logo">  
+<img src="../img/typescript/html-logo.svg" width="450" alt="The Official HTML Logo">  
 <i>Figure 1: The Official HTML Logo. Source: [W3C](https://www.w3.org/html/logo/index.html)</i>  
 
 HTML is a language used to create the elements you see on a website, from the text to the hidden boxes that hold that text, to the images and buttons on a screen. Everything you see on a screen is created using HTML. For example, the code below would create a webpage that displays nothing but a single line of text:  
@@ -34,11 +34,11 @@ HTML is a language used to create the elements you see on a website, from the te
 
 ### Styling with CSS
 
-<img src="../img/TypeScript/css-logo.svg" width="450" alt="The Official CSS Logo">  
+<img src="../img/typescript/css-logo.svg" width="450" alt="The Official CSS Logo">  
 <i>Figure 2: The Official CSS Logo. Source: [CSS-Next/logo.css](https://github.com/CSS-Next/logo.css/blob/main/css.square.svg)</i>  
 
 CSS is the language used to style your website. No one wants to see a bland website made up of just generic text and basic geometric shapes. CSS helps web developers add a little spice and flavor to their sites. From the weights and fonts of text to the shapes and sizes of images and buttons, CSS is what makes a website go from an eye-sore to an eye-pleaser. For example, the code below would modify our HTML and make the text red and bolded:
-```html css
+```html
 <head>
   <style> /*This is the CSS */
     .p {
@@ -54,11 +54,11 @@ CSS is the language used to style your website. No one wants to see a bland webs
 
 ### Adding Logic with JavaScript
 
-<img src="../img/TypeScript/js-logo.png" width="450" alt="The Unofficial JavaScript Logo">  
+<img src="../img/typescript/js-logo.png" width="450" alt="The Unofficial JavaScript Logo">  
 <i>Figure 3: The Unofficial JavaScript Logo. Source: [voodootikigod/logo.js](https://github.com/voodootikigod/logo.js)</i>  
 
 Finally, there's JavaScript. Unlike HTML and CSS, JavaScript isn't used to create or modify the structure of elements on a webpage. Instead, it uses the elements created by HTML to collect, store, and modify data. That is what makes it the most important language in web development.
-```html css JavaScript
+```html
 <head>
   <style> /*This is the CSS */
     .button {
@@ -87,21 +87,21 @@ In a nutshell, you can think of HTML, CSS, and JavaScript like the parts of a ca
 
 ## TypeScript: JavaScript, but Better
 
-<img src="../img/TypeScript/ts-logo.svg" width="450" alt="The Official TypeScript Logo">  
+<img src="../img/typescript/ts-logo.svg" width="450" alt="The Official TypeScript Logo">  
 <i>Figure 4: The Official TypeScript Logo. Source: [microsoft/TypeScript-Website](https://github.com/microsoft/TypeScript-Website/blob/f407e1ae19e5e990d9901ac8064a32a8cc60edf0/packages/TypeScriptlang-org/static/branding/ts-logo-512.svg)</i> 
 
 So, JavaScript seems pretty cool. But if it's thanks to JavaScript and its offshoots that websites even have functionality, how can anything be better than it? Well, that's where TypeScript comes in. TypeScript is one of these offshoots of JavaScript. In more official terms, it's called a superset of JavaScript. This means that it simply builds off of and adds some extra features to the JavaScript language. "But you were just talking about how useful JavaScript was, why would you need to add anything?" Well, to answer that question, let's take a look at some more JavaScript. When you create variables in JavaScript, they can store one of three basic types of data: numbers, strings (characters, words, sentences), and booleans (true or false). When you code in JavaScript, the program simply guesses what type of data your variable is supposed to store.
-```JavaScript
+```javascript
 let variable = 0;
 ```
 The program assumes that my variable is supposed to store numbers. But with JavaScript, you can simply change what type of data is stored in that variable later on.
-```JavaScript
+```javascript
 let variable = 0;
 variable = "Hello World!";
 console.log(variable);
 ```
 In my command console, I'll see the text "Hello World!" on display. While this could technically provide a great deal of flexibility, it also creates a lot of opportunities for your code to break or behave unpredictably. See below:
-```JavaScript
+```javascript
 let variable = 0;
 variable = true;
 
@@ -110,13 +110,13 @@ function myFunction(something) {
 }
 ```
 My function should increment whatever number is passed through it, but JavaScript doesn't check what's being passed into the function. So if I pass "variable" into myFunction, how does the program add 1 to "true"? It guesses and outputs an unexpected result (in this case, 2), which can cause massive bugs down the line. Another issue with these implicit types is readability:
-```JavaScript
+```javascript
 function myFunction(variable1, variable2) {
   return variable1 + variable2;
 }
 ```
 What is this function supposed to do? What is it accepting as its parameters (inputs), and what is it supposed to return (output)? I have no idea. At first glance, you might say that it's supposed to add together two numbers. But this syntax could also be used to combine two strings. I don't know which of these purposes this function is supposed to be used for, and I won't ever know unless the person who created this function tells me. So, how does TypeScript solve this issue? By adding static types to JavaScript. Unlike JavaScript, which relies on implicit types for variables, TypeScript allows (and often requires) you to explicitly declare the type of every variable you create, what type of data a function will accept as inputs, and what type of data it will return. See below:
-```TypeScript
+```typescript
 let variable: number = 0;
 
 function myFunction(variable1: number, variable2: number): number {
@@ -124,7 +124,7 @@ function myFunction(variable1: number, variable2: number): number {
 }
 ```
 Now we know that my variable is supposed to store a number, and now it can only store numbers. Additionally, we know that myFunction will only accept two numbers as its parameters and that it'll return a number when called. If I try to assign another data type to my variable like we did before:
-```TypeScript
+```typescript
 let variable: number = 0;
 variable = "Hello World!";
 ```
@@ -132,11 +132,11 @@ The program will throw an error before the code even runs. This one modification
 
 ## Thoughts on TypeScript
 
-<img src="../img/TypeScript/thinking.jpg" width="450" alt="A Man Thinking">  
+<img src="../img/typescript/thinking.jpg" width="450" alt="A Man Thinking">  
 <i>Figure 5: A Man Thinking. Source: [iStock by Getty Images](https://www.istockphoto.com/photo/pensive-thoughtful-contemplating-caucasian-young-man-thinking-about-future-planning-gm1388645967-446222427)</i> 
 
 At first glance, the syntax for TypeScript seems quite intuitive and easy to understand. However, I am not a big fan of some of the styling practices used in the language. An example of this involves function declarations. It is often considered better practice to use named function expressions instead of function declarations, as seen below:
-```TypeScript
+```typescript
 /* BAD: Function Declaration */
 function myFunction() {}
 
@@ -144,7 +144,7 @@ function myFunction() {}
 const myFunction = function myFunction() {};
 ```
 To be honest, that's just a minor gripe. A more pressing concern I have is with arrow functions:
-```TypeScript
+```typescript
 /* Traditional Function Expression */
 const getSizeDescription = function(size: number): string {
   return size > 10 ? "Large Size" : "Small Size";
@@ -156,7 +156,7 @@ const getSizeDescriptionArrow = (size: number): string => (size > 10 ? "Large Si
 Both of these functions perform the same task: they take a numerical input, size, and return a string based on whether that input is larger than 10. Personally, I don't understand why someone would prefer the latter syntax. If I'm trying to read someone else's code, navigating through arrow function notation feels like a nightmare. But, maybe that's just my naive perspective as a new learner of TypeScript. I guess we'll see if my views change over time.
 
 Comparing TypeScript to other languages I have worked with, it is quite intuitive to read on the surface (when you are not using shorthand syntax like arrow functions). See the comparison below:
-```TypeScript
+```typescript
 /* TypeScript */
 const hello: string = "Hello";
 const world: string = "World!";
@@ -168,7 +168,8 @@ String hello = "Hello";
 String world = "World!";
 System.out.println(hello + " " + world);
 ```
-```C
+```c
+/* C */
 char hello[] = "Hello";
 char world[] = "World!";
 printf("%s %s", hello, world);
@@ -177,7 +178,7 @@ All three of these code blocks will print "Hello World!" to the command terminal
 
 ## Workouts of the Day?
 
-<img src="../img/TypeScript/brain.jpg" width="450" alt="A Brain Working Out">  
+<img src="../img/typescript/brain.jpg" width="450" alt="A Brain Working Out">  
 <i>Figure 6: A Brain Working Out. Source: [Vitalii Petrenko/Shutterstock.com](https://www.shutterstock.com/image-vector/brain-training-rock-muscles-barbell-modern-757605628)</i> 
 
 With the start of our exploration into TypeScript came the introduction of "Workouts of the Day" (WODs). These were a part of a larger concept my professor called "Athletic Software Engineering." In simple terms, it's the idea that software engineering education should focus on improving a student’s competency in the development environment first, before moving on to higher-level software design and project management. You need to make sure students have the tools they need to solve a problem before asking them to solve it. If you give a student a toolbox, teach them how to use those tools, and then ask them to fix a broken door, they’ll think creatively about how they can use the tools at their disposal to fix it. If you instead just tell the student to fix the door without any foundational knowledge, they’ll just go to a store and try to find the specific tool they need for that one job. They don’t implement creativity in developing the solution. Instead, they just look for the most basic, straightforward one, which isn't always the most efficient and can be detrimental to larger projects. The Workouts of the Day aim to put the "athletic" in his "Athletic Software Engineering" philosophy. They’re time-limited programming challenges meant to test a student’s skills and efficiency. As a first impression, I think having some sort of mini code practice outside of larger homework assignments or projects could be helpful. It’d serve as good practice and a way to help make sure that the concepts and code we learn actually stick in our heads. However, we’ve only had two WODs so far as of the time of writing this, and both were quite simple, so I can’t say whether or not they’ve actually been helpful. Only time will tell, and I’ll wait to complete several more WODs before I make any sort of judgment on them.

@@ -115,7 +115,7 @@ function myFunction(variable1, variable2) {
   return variable1 + variable2;
 }
 ```
-What is this function supposed to do? What is it accepting as its parameters (inputs), and what is it supposed to return (output)? I have no idea. At first glance, you might say that it's supposed to add together two numbers. But this syntax could also be used to combine two strings. I don't know which of these purposes this function is supposed to be used for, and I won't ever know unless the person who created this function tells me. So, how does TypeScript solve this issue? By adding static types to JavaScript. Unlike JavaScript, which relies on implicit types for variables, TypeScript allows (and often requires) you to explicitly declare the type of every variable you create, what type of data a function will accept as inputs, and what type of data it will return. See below:
+What is this function supposed to do? What is it accepting as its parameters (inputs), and what is it supposed to return (output)? I have no idea. At first glance, you might say that it's supposed to add together two numbers. But this syntax could also be used to combine two strings. I don't know which of these purposes this function is supposed to be used for, and I won't ever know unless the person who created this function tells me. So, how does TypeScript solve this issue? By adding static types to JavaScript. Unlike JavaScript, which relies on implicit types for variables, TypeScript requires you to explicitly declare the type of every variable you create, what type of data a function will accept as inputs, and what type of data it will return. See below:
 ```typescript
 let variable: number = 0;
 
@@ -135,7 +135,7 @@ The program will throw an error before the code even runs. This one modification
 <img src="../img/typescript/thinking.jpg" width="400" alt="A Man Thinking">  
 <i>Figure 5: A Man Thinking. Source: [iStock by Getty Images](https://www.istockphoto.com/photo/pensive-thoughtful-contemplating-caucasian-young-man-thinking-about-future-planning-gm1388645967-446222427)</i> 
 
-At first glance, the syntax for TypeScript seems quite intuitive and easy to understand. However, I'm not a big fan of some of the styling practices used in the language. An example of this involves function declarations. It is often considered better practice to use named function expressions instead of function declarations, as seen below:
+At first glance, the syntax for TypeScript seems quite intuitive and easy to understand. However, I'm not a big fan of some of the styling practices used in the language. An example of this involves function declarations. It's often considered better practice to use named function expressions instead of function declarations, as seen below:
 ```typescript
 /* BAD: Function Declaration */
 function myFunction() {}
@@ -143,7 +143,7 @@ function myFunction() {}
 /* GOOD: Named Function Expression */
 const myFunction = function myFunction() {};
 ```
-To be honest, that's just a minor gripe. A more pressing concern I have is with arrow functions:
+In my opinion, that just seems like unnecessary, extra work, but that's just a minor gripe I have. A more pressing concern I have is with arrow functions:
 ```typescript
 /* Traditional Function Expression */
 const getSizeDescription = function(size: number): string {

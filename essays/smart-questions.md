@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: "You Need to Know How to Ask Smart to Get Smart(er)
+title: "You Need to Know How to Ask Smart to Get Smart(er)"
 # All dates must be YYYY-MM-DD format!
 date: 2026-06-08
 published: true

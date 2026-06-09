@@ -176,12 +176,12 @@ Questions are the cornerstone of learning. Keyword being <b>learning</b>. You sh
 
 While writing this essay, xvi's original post was removed by Stack Overflow moderators for violating their Code of Conduct. As such, the link to the post no longer works. Below is what appears in my browser history when I search for the title of xvi's post:  
 
-<img src="../img/typescript/proof.png" width="400" alt="A Screenshot of a the Results from Searching xvi's Post Title in my Search History">  
+<img src="../img/smart-questions/proof.png" width="400" alt="A Screenshot of a the Results from Searching xvi's Post Title in my Search History">  
 <i>Figure 8: A Screenshot of a the Results from Searching xvi's Post Title in my Search History.</i>  
 
 As you can see, the Stack Overflow URL that once redirected to their page now displays a "Page not found" error. For record-keeping purposes, here is the [link to the taken down post](https://stackoverflow.com/questions/79954245/trying-to-bypass-an-anticheat-cus-why-not) (the link is dead). In case their account is also removed or deleted, I have attached a screenshot of their profile below:  
 
-<img src="../img/typescript/profile.png" width="400" alt="A Screenshot of a xvi's Stack Overflow Profile">  
+<img src="../img/smart-questions/profile.png" width="400" alt="A Screenshot of a xvi's Stack Overflow Profile">  
 <i>Figure 9: A Screenshot of a xvi's Stack Overflow Profile.</i> 
 
 <hr>

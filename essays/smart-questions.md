@@ -155,7 +155,7 @@ Then there's effort. While Finley clearly demonstrated that they did their homew
 
 Finally, there's the attitude. Finley maintained a professional, objective attitude while explaining their issue. xvi did not. They used the shortcut term "cus" in their title, signaling to readers that they were lazy and didn't intend to treat the community seriously. Beyond that, they led with self-deprecating groveling ("I'm really new to this..."), which does nothing but serve as a distraction from the technical issue at hand and an attempt to garner sympathy from the community. Worst of all, while Finley's biggest mistake was failing to follow up publicly, xvi tried to completely undermine the community aspect of Stack Overflow by moving the conversation to Discord. By trying to move the conversation into a private, one-on-one chat, they ensure that any potential solution will be hidden from the public, rendering their thread useless for future users searching through Stack Overflow.  
 
-Putting aside the fact that xvi is trying to bypass a game's anticheat—which is against the terms of service of essentially every game that uses one and goes against Stack Overflow's own code of conduct—their post is the textbook definition of a dumb question. From a careless and uninformative header to an absolute lack of research, a request for an exploit handout, and an attempt to take the communication offline, it violates almost every rule in the book for smart questions.
+Putting aside the fact that xvi is trying to bypass a game's anticheat—which is against the terms of service of essentially every game that uses one and goes against Stack Overflow's own Code of Conduct—their post is the textbook definition of a dumb question. From a careless and uninformative header to an absolute lack of research, a request for an exploit handout, and an attempt to take the communication offline, it violates almost every rule in the book for smart questions.
 
 ### Dumb Questions get Dumb Answers—or None At All
 
@@ -181,10 +181,15 @@ While writing this essay, xvi's original post was removed by Stack Overflow mode
 <img src="../img/smart-questions/proof.png" width="400" alt="A Screenshot of a the Results from Searching xvi's Post Title in my Search History">  
 <i>Figure 8: A Screenshot of a the Results from Searching xvi's Post Title in my Search History.</i>  
 
-As you can see, the Stack Overflow URL that once redirected to their page now displays a "Page not found" error. For record-keeping purposes, here is the [link to the taken down post](https://stackoverflow.com/questions/79954245/trying-to-bypass-an-anticheat-cus-why-not) (the link is dead). In case their account is also removed or deleted, I have attached a screenshot of their profile below:  
+As you can see, the Stack Overflow URL that once redirected to their page now displays a "Page not found" error. Below is a screenshot of what appears if you try to follow the [original link to his post](https://stackoverflow.com/questions/79954245/trying-to-bypass-an-anticheat-cus-why-not).  
+
+<img src="../img/smart-questions/gone.png" width="400" alt="A Screenshot of a the 'Page not Found' That Appears When you try to Follow the Original Link">  
+<i>Figure 9: A Screenshot of a the 'Page not Found' That Appears When you try to Follow the Original Link.</i>  
+
+In case their account is also removed or deleted, I have attached a screenshot of their profile below:  
 
 <img src="../img/smart-questions/profile.png" width="400" alt="A Screenshot of a xvi's Stack Overflow Profile">  
-<i>Figure 9: A Screenshot of a xvi's Stack Overflow Profile.</i> 
+<i>Figure 10: A Screenshot of a xvi's Stack Overflow Profile.</i> 
 
 <hr>
 

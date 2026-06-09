@@ -137,3 +137,7 @@ footer.navbar .nav-link:hover {
 .border-top, .border-bottom {
     border-color: var(--ts-grey5) !important;
 }
+
+blockquote {
+    border-left: 4px solid var(--ts-yellow1);
+}

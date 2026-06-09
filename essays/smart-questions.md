@@ -20,7 +20,7 @@ labels:
 > — Pierre Marc Gaston de Lévis  
 > <i>Maximes et réflexions sur différents sujets de morale et de politique</i> (1808)[^1]  
 
-Questions are the cornerstone of learning. After all, how can you learn something if you aren't asking questions? How do I add numbers together? How do I fix a flat tire? How do I cook a beef wellington? How do we prove that $P=NP$ is false? While no one can exactly answer that last question, I think you get the idea. We learn by asking questions, by inquiring into the things that intrigue us, that perplex us—things we don't understand or comprehend, but that we'd like to. But is there such a thing as a "bad question?" If you ask your teachers or professors, many of them will probably say no. After all, they want you to engage with the class and the material, to truly think about what it is you're learning, and asking questions is a great way to do that, regardless of what that question may be.  
+Questions are the cornerstone of learning. After all, how can you learn something if you aren't asking questions? How do I add numbers together? How do I fix a flat tire? How do I cook a beef wellington? How do we prove that P=NP is false? While no one can exactly answer that last question, I think you get the idea. We learn by asking questions, by inquiring into the things that intrigue us, that perplex us—things we don't understand or comprehend, but that we'd like to. But is there such a thing as a "bad question?" If you ask your teachers or professors, many of them will probably say no. After all, they want you to engage with the class and the material, to truly think about what it is you're learning, and asking questions is a great way to do that, regardless of what that question may be.  
 
 However, if you're a man named Eric Raymond, then the answer is a solid "yes." In his eyes, if you want to learn something, you can't just ask a question—you need to ask a <b><i>smart</i></b> question.
 
@@ -126,8 +126,8 @@ So, in response to Finley's smart question, Kaiido provided a detailed and helpf
 <img src="../img/smart-questions/x.png" width="400" alt="A Red X">  
 <i>Figure 6: A Red X. Source: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Red_X.svg)</i>  
 
-Now that we know what a smart question looks like in the wild, let's look at a bad example: "Trying to bypass an anticheat cus why not", asked by a user named xvi.  
-<i>The Link to xvi's post has removed. Please see the disclaimer at the bottom of the essay.</i>
+Now that we know what a smart question looks like in the wild, let's look at a bad example: "Trying to bypass an anticheat cus why not", asked by a user named [xvi](https://stackoverflow.com/users/32815992/xvi).  
+<i>*The Link to xvi's post has removed. Please see the disclaimer at the bottom of the essay.</i>
 
 ### What was the Question?
 
@@ -173,6 +173,8 @@ So, what kind of answer did xvi get? None. His question was dumb—it showed a l
 Questions are the cornerstone of learning. Keyword being <b>learning</b>. You should ask questions to grow, not because you want someone else to do the work for you. When you show a genuine desire to engage with a problem, online communities will gladly match your energy and share their knowledge. After all, the best tech forums aren't just troubleshooting queues—they're places where passion is shared and passed down to the next generation. If you use them just to find an easy way out, you miss the point entirely. So, if you want to get smart, be smart. Ask smart questions, and smart answers will follow.
 
 <hr>
+
+### Disclaimer
 
 While writing this essay, xvi's original post was removed by Stack Overflow moderators for violating their Code of Conduct. As such, the link to the post no longer works. Below is what appears in my browser history when I search for the title of xvi's post:  
 

@@ -15,9 +15,9 @@ labels:
 <img src="../img/smart-questions/duke.jpg" width="400" alt="A Portrait of Pierre-Marc-Gaston de Lévis">  
 <i>Figure 1: A Portrait of Pierre-Marc-Gaston de Lévis. Source: [Académie Française (The French Academy)](https://www.academie-francaise.fr/les-immortels/pierre-marc-gaston-de-levis)</i>  
 
-> <i>Il est encore plus facile de juger de l'esprit d'un homme par ses questions que par ses réponses.<i>
-> ("It is easier to judge the mind of a man by his questions rather than his answers.")
-> — Pierre Marc Gaston de Lévis
+> <i>Il est encore plus facile de juger de l'esprit d'un homme par ses questions que par ses réponses.<i>  
+> ("It is easier to judge the mind of a man by his questions rather than his answers.")  
+> — Pierre Marc Gaston de Lévis  
 > <i>Maximes et réflexions sur différents sujets de morale et de politique</i> (1808)[^1]  
 
 Questions are the cornerstone of learning. After all, how can you learn something if you aren't asking questions? How do I add numbers together? How do I fix a flat tire? How do I cook a beef wellington? How do we prove that $P=NP$ is false? While no one can exactly answer that last question, I think you get the idea. We learn by asking questions, by inquiring into the things that intrigue us, that perplex us—things we don't understand or comprehend, but that we'd like to. But is there such a thing as a "bad question?" If you ask your teachers or professors, many of them will probably say no. After all, they want you to engage with the class and the material, to truly think about what it is you're learning, and asking questions is a great way to do that, regardless of what that question may be.  
@@ -30,10 +30,10 @@ If you're like me from 15 minutes ago and this is the first time you've ever hea
 
 ### Precision
 
-<img src="../img/smart-questions/" width="400" alt="A Red Target">  
+<img src="../img/smart-questions/target.png" width="400" alt="A Red Target">  
 <i>Figure 2: A Red Target. Source: [The Target Corporation](https://corporate.target.com/media/collection/b-roll-and-press-materials/target-logos)</i>  
 
-Smart questions need to be precise. You want to provide enough information for potential helpers to understand the problem and the circumstances surrounding it, but you don't want to overwhelm them with irrelevant information that will only serve as extra work for them to do. The goal is to allow experts to diagnose your problem quickly so that they can also provide an answer quickly, and that starts with being specific and objective. Describe the raw symptoms of your issue instead of any personal theories you might have. After all, if your theories were any good, you wouldn't be asking for help. Begin by using an "object-deviation" description in your subject header. Describe what is being affected and what it's doing differently. This helps people understand both what you're having a problem with and what the problem is at a glance. From there, prioritize relevance over volume in the body of your question. Instead of dumping pages of code or logs, just include the bare minimum for a reproducible test case to isolate your issue. To wrap things up, provide your context chronologically. If your problem involves a sequence of events, describe the steps that led up to the error in chronological order to help the experts trace your steps.  
+Smart questions need to be precise. You want to provide enough information for potential helpers to understand the problem and the circumstances surrounding it, but you don't want to overwhelm them with irrelevant information that will only serve as extra work for them to do. The goal is to allow experts to diagnose your problem quickly so that they can also provide an answer quickly, and that starts with being specific and objective. Describe the raw symptoms of your issue instead of any personal theories you might have. After all, if your theories were any good, you wouldn't be asking for help. Begin by using an "object-deviation" description in your subject header[^2]. Describe what is being affected and what it's doing differently. This helps people understand both what you're having a problem with and what the problem is at a glance. From there, prioritize relevance over volume in the body of your question. Instead of dumping pages of code or logs, just include the bare minimum for a reproducible test case to isolate your issue. To wrap things up, provide your context chronologically. If your problem involves a sequence of events, describe the steps that led up to the error in chronological order to help the experts trace your steps.  
 
 If you still don't understand why precision is important, think of it this way: if you're feeling sick and you go to the doctor, you're not going to tell them every little thing you've done all week. You'll describe your symptoms and the things you've done that may have caused them, because you know that'll actually help the doctor solve the issue.
 
@@ -74,7 +74,7 @@ for (const styleSheet of document.styleSheets) {
   styleSheet.disabled = styleSheet.title !== currentThemeName;
 }
 ```
-While turning the stylesheets off worked perfectly, turning them back on caused some weird, inconsistent rendering issues in Chromium browsers (even though it worked fine in Firefox). They decided to look through the official MDN and W3C doccumentation, but found that the web standards were pretty vague. MDN themselves state that "`disabled === false` does not guarantee the style sheet is applied (it could be removed from the document, for instance),"[^3] while W3C almost parrots them, stating that even when the `disabled` flag is unset, "it does not necessarily mean that the CSS style sheet is actually used for rendering."[^4]. So, Finley took a different approach and tried to target the HTML `<link>` and `<style>` alements directly through the DOM (Document Object Model). You can find their code below:
+While turning the stylesheets off worked perfectly, turning them back on caused some weird, inconsistent rendering issues in Chromium browsers (even though it worked fine in Firefox). They decided to look through the official MDN and W3C doccumentation, but found that the web standards were pretty vague. MDN themselves state that "`disabled === false` does not guarantee the style sheet is applied (it could be removed from the document, for instance),"[^3] while W3C almost parrots them, stating that even when the `disabled` flag is unset, "it does not necessarily mean that the CSS style sheet is actually used for rendering."[^4]. So, Finley took a different approach and tried to target the HTML `<link>` and `<style>` elements directly through the DOM (Document Object Model). You can find their code below:
 ```javascript
 const styleElems = [...document.querySelectorAll('style[title]'), ...document.querySelectorAll('link[rel="stylesheet"][title]');
 
@@ -126,13 +126,15 @@ So, in response to Finley's smart question, Kaiido provided a detailed and helpf
 <img src="../img/smart-questions/x.png" width="400" alt="A Red X">  
 <i>Figure 6: A Red X. Source: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Red_X.svg)</i>  
 
-Now that we know what a smart question looks like in the wild, let's look at a bad example: ["Trying to bypass an anticheat cus why not"](https://stackoverflow.com/questions/79954245/trying-to-bypass-an-anticheat-cus-why-not), asked by a user named xvi.
+Now that we know what a smart question looks like in the wild, let's look at a bad example: "Trying to bypass an anticheat cus why not", asked by a user named xvi.  
+<i>The Link to xvi's post has removed. Please see the disclaimer at the bottom of the essay.</i>
 
 ### What was the Question?
 
 I would summarize xvi's post, but it's so short at just four sentences long that summarizing it would just be rewriting it. Instead, I'll just put their entire post below:  
 
 > I’m really new to this but here I found this in a remote spy
+
 ```lua
 local Event = game:GetService("ReplicatedStorage")["yr4253\010"]
 Event:InvokeServer(
@@ -142,6 +144,7 @@ Event:InvokeServer(
     "e4f34921-54f4-472d-a6b7-0ad55c6a2b6a"
 )
 ```
+
 > And anytime I replay the function I get banned immediately, how do I silently trigger or call into whatever’s getting fired so I can hide my code and not get banned? If needed my discord is @surhgeons
 
 ### Why was it Dumb?
@@ -168,6 +171,18 @@ So, what kind of answer did xvi get? None. His question was dumb—it showed a l
 ## Conclusion
 
 Questions are the cornerstone of learning. Keyword being <b>learning</b>. You should ask questions to grow, not because you want someone else to do the work for you. When you show a genuine desire to engage with a problem, online communities will gladly match your energy and share their knowledge. After all, the best tech forums aren't just troubleshooting queues—they're places where passion is shared and passed down to the next generation. If you use them just to find an easy way out, you miss the point entirely. So, if you want to get smart, be smart. Ask smart questions, and smart answers will follow.
+
+<hr>
+
+While writing this essay, xvi's original post was removed by Stack Overflow moderators for violating their Code of Conduct. As such, the link to the post no longer works. Below is what appears in my browser history when I search for the title of xvi's post:  
+
+<img src="../img/typescript/proof.png" width="400" alt="A Screenshot of a the Results from Searching xvi's Post Title in my Search History">  
+<i>Figure 8: A Screenshot of a the Results from Searching xvi's Post Title in my Search History.</i>  
+
+As you can see, the Stack Overflow URL that once redirected to their page now displays a "Page not found" error. For record-keeping purposes, here is the [link to the taken down post](https://stackoverflow.com/questions/79954245/trying-to-bypass-an-anticheat-cus-why-not) (the link is dead). In case their account is also removed or deleted, I have attached a screenshot of their profile below:  
+
+<img src="../img/typescript/profile.png" width="400" alt="A Screenshot of a xvi's Stack Overflow Profile">  
+<i>Figure 9: A Screenshot of a xvi's Stack Overflow Profile.</i> 
 
 <hr>
 

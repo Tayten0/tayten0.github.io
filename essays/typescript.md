@@ -7,9 +7,9 @@ date: 2026-06-06
 published: true
 labels:
   - ICS 314
-  - TypeScript
-  - JavaScript
   - Learning
+  - JavaScript
+  - TypeScript
 ---
 
 ## Introduction

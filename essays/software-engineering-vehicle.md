@@ -7,8 +7,8 @@ date: 2026-06-01
 published: true
 labels:
   - ICS 314
-  - Software Engineering
   - Learning
+  - Software Engineering
 ---
 
 ## Introduction

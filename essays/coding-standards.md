@@ -16,14 +16,14 @@ labels:
 Everyone knows how to write; it's one of the first things we're taught in school. It starts out rough as we learn how to physically form letters. Then, we learn how to put those characters together into words, then sentences, and how to derive meaning from them. Our handwriting starts out messy—crude, oversized letters drawn with lines about as straight as wet spaghetti and bleeding into the lines above and below. Over time, it improves. From there, we naturally develop our own unique style as we subconsciously adjust our strokes to be faster and more efficient. The most extreme version of this is found in a doctor's scribble, as they utilize a quick, barely legible handwriting combined with medical shorthand to process patients as quickly as possible. However, while their style is highly efficient for them, the sheer illegibility of a doctor's handwriting has become a universal joke.  
 
 <img src="../img/coding-standards/doctor-handwriting.jpg" width="400" alt="A picture of a doctor's note.">  
-<i>Figure 1: A picture of a doctor's note. Source: [u/nehyolaw, Reddit.com](https://www.reddit.com/r/Handwriting/comments/k0vdbd/is_anyone_able_to_decipher_this_literal_doctors/)</i>  
+<i>Figure 1: A picture of a doctor's note. Source: <a href="https://www.reddit.com/r/Handwriting/comments/k0vdbd/is_anyone_able_to_decipher_this_literal_doctors/" target="_blank">u/nehyolaw, Reddit.com</a></i>  
 
 Coding is similar. Learning the syntax is like learning the alphabet. Functions and algorithms are akin to sentences, while programs are akin to essays. The way we write code—how we name variables, how we structure our logic, what data structures and methods we use—can be thought of as our handwriting. In this case, a doctor's handwriting is the equivalent of terribly messy code: uninformative variable and function names, inconsistent spacing, and cramming several actions into a single line. These are practices that, while syntactically valid, make the code difficult, if not impossible, for anyone but its creator to read. So, how do we stop people from writing such terrible code? Well, that's where coding standards come in.
 
 ## How do we Know What Is and Isn't Neat Handwriting?
 
 <img src="../img/coding-standards/guide.png" width="400" alt="An illustration of a guide book.">  
-<i>Figure 2: An illustration of a guide book. Source: [FLATICON](https://www.flaticon.com/free-icon/guide_1705351)</i>  
+<i>Figure 2: An illustration of a guide book. Source: <a href="https://www.flaticon.com/free-icon/guide_1705351" target="_blank">FLATICON</a></i>  
 
 Coding standards are comprehensive guidelines for how code should be formatted, structured, and written. If programming languages define the words and grammar, coding standards are your English teacher explaining how to write a coherent, academic essay instead of rambling your thoughts onto a piece of paper. These standards are almost always unofficial. They're typically developed by individual programmers or major companies and find widespread acceptance within the programming community. For example, Google created its own <a href="https://google.github.io/styleguide/jsguide.html" target="_blank">JavaScript</a> and <a href="https://google.github.io/styleguide/tsguide.html" target="_blank">TypeScript</a> coding standards, while the <a href="https://github.com/dawsonp-zwickroell/typescript-deprecated?tab=readme-ov-file#types" target="_blank">ZE TypeScript style guide</a> is another widely-used TypeScript coding standard created by GitHub user Patrick Dawson with contributions from over 200 other programmers. However, "almost always" doesn't mean "always," and the <a href="https://peps.python.org/pep-0008/" target="_blank">PEP 8 style guide</a> is about as official as it gets for Python.  
 
@@ -40,8 +40,8 @@ In a vacuum, yes, it's okay if your code is messy and only you can understand it
 
 ## How Neat Should my Handwriting be?
 
-<img src="../img/typescript/thinking.jpg" width="400" alt="A man thinking">  
-<i>Figure 4: A man thinking. Source: [iStock by Getty Images](https://www.istockphoto.com/photo/pensive-thoughtful-contemplating-caucasian-young-man-thinking-about-future-planning-gm1388645967-446222427)</i>  
+<img src="../img/typescript/thinking.jpg" width="400" alt="A man thinking.">  
+<i>Figure 4: A man thinking. Source: <a href="https://www.istockphoto.com/photo/pensive-thoughtful-contemplating-caucasian-young-man-thinking-about-future-planning-gm1388645967-446222427" target="_blank">iStock by Getty Images</a></i>  
 
 With all that being said, you're probably thinking that I see coding standards as necessary and useful, and I do—to an extent. As of the time of writing this essay, I work as a contract full-stack developer, and I have seen my fair share of messy, unreadable code. From files thousands of lines long storing dozens of different functions, to shorthands for variable and constant names that I can only decipher after reading through the entire codebase, to functions used in a single page being defined across multiple different files—it's a mess that makes my job much harder than it has to be. So, I truly wish everyone would follow a coding standard for their language and stick to it, because it would make everyone's lives much easier. However, I see two main issues with this.  
 
@@ -51,8 +51,11 @@ I've been using ESLint with my TypeScript assignments. For the most part, it's h
 
 ## Conclusion
 
+<img src="../img/coding-standards/global.jpg" width="400" alt="An image of a global network.">  
+<i>Figure 5: An image of a global network. Source: <a href="https://www.istockphoto.com/photo/global-network-usa-united-states-of-america-north-america-global-business-flight-gm1488521147-513664767?searchscope=image%2Cfilm" target="_blank">iStock by Getty Images</a></i>  
+
 Overall, coding standards are great. They help to elevate messy, individualistic code into clear, professional programs that anyone can understand and build upon. In a world where programs are developed by many programmers spread across various teams, this is essential to ensuring projects move forward smoothly. While ensuring your code meets such standards can definitely feel tedious at first, the long-term benefits far outweigh the short-term annoyances. It helps prevent bugs before they happen, make collaboration seamless, and, above all else, improve your own programming skills to make you a more disciplined, professional developer. So, in a world where your code can be as messy as a doctor's handwriting, write your code clean, neat, and easy to read.
 
 <hr>
-<i>This essay was grammar checked using Google Gemini 3.5.</i>
+<i>This essay was grammar checked using Google Gemini 3.5.</i>  
 <i>All images belong to their respective copyright holders.</i>

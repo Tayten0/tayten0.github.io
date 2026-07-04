@@ -40,10 +40,14 @@ Bootstrap is one of the most popular UI frameworks in use today. First created b
 
 ### How do I Strap on my Boots?
 
-To use Bootstrap in your own project, all you have to do is add these two lines of code to your HTML file:
+To use Bootstrap in your own project, all you have to do is add these two—albeit long—lines of code to your HTML file:
 ```html
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" 
+    crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" 
+    crossorigin="anonymous"></script>
 ```
 These lines import Bootstrap's library into your website, making all of its classes and styles immediately available for you to use. Now that we have everything set up, let's take a look at what it can actually do.
 
@@ -98,7 +102,7 @@ Navbars provide users with a simple and intuitive way to access the different pa
 ```
 At their core, navbars are just unordered lists. You can see that with Bootstrap, it automatically removes the bulletpoints. With a few more classes, we can make these both into the horizontal navbars you typically see on websites.
 
-<img src="../img/bootstrap/navbar-style.png" width="400" alt="A styled Bootstrap navbar on the top and a styled HTML navbar on the bottom.">
+<img src="../img/bootstrap/navbar-style.png" width="600" alt="A styled Bootstrap navbar on the top and a styled HTML navbar on the bottom.">
 <caption><small>
   Figure 6: A styled Bootstrap navbar on the top and a styled HTML navbar on the bottom.
 </small></caption>  
@@ -132,7 +136,7 @@ You can see that in the Bootstrap navbar, the items are evenly spaced between th
 
 Cards are containers on a website that display content and actions about a single topic. They're meant to be an easy for a user to scan for relevant and useful information.
 
-<img src="../img/bootstrap/card-text.png" width="400" alt="A basic Bootstrap card on the top and a basic HTML card on the bottom.">
+<img src="../img/bootstrap/card-text.png" width="600" alt="A basic Bootstrap card on the top and a basic HTML card on the bottom.">
 <caption><small>
   Figure 7: A basic Bootstrap card on the top and a basic HTML card on the bottom.
 </small></caption>  
@@ -302,7 +306,7 @@ Let's take at the pure HTML and CSS code again.
 </nav>
 ```
 What do each of these classes do? To find out, all we have to do is look behind the curtains in the ```style.css``` file.
-```html
+```css
 .site-nav { 
     background: #fff;
     padding: 12px 0;

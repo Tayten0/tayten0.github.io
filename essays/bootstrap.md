@@ -14,7 +14,7 @@ labels:
 
 ## Introduction
 
-To quote my own essay, "TypeScript: It Does What JavaScript Does—But Better!": "HTML is a language used to create the elements you see on a website," while "CSS is the language used to style your website." If you've ever used the internet, you've interacted with these two languages before. Every website is built using a combination of HTML and CSS, whether it was made from scratch or using a website builder like Wix or Squarespace. Most people who need a website will probably opt to use a website builder. They're simple to use and easy to learn, so it's pretty reasonable to put together a decent-looking website without putting too much time into it. But for those with programming experience, making a website from scratch provides a level of style and functionality customization that no website builder can match. Unfortunately, making a website from scratch is a lot of work. Not only do you have to create all the elements and containers that will hold your content, you have to manually style each and every one of them—creating who knows how many different classes and tinkering with them to reach that perfect look. If only there was a way to make this process simpler.  
+To quote my own essay, <a href="https://tayten0.github.io/essays/typescript.html" target="_blank">"TypeScript: It Does What JavaScript Does—But Better!"</a>: "HTML is a language used to create the elements you see on a website," while "CSS is the language used to style your website." If you've ever used the internet, you've interacted with these two languages before. Every website is built using a combination of HTML and CSS, whether it was made from scratch or using a website builder like Wix or Squarespace. Most people who need a website will probably opt to use a website builder. They're simple to use and easy to learn, so it's pretty reasonable to put together a decent-looking website without putting too much time into it. But for those with programming experience, making a website from scratch provides a level of style and functionality customization that no website builder can match. Unfortunately, making a website from scratch is a lot of work. Not only do you have to create all the elements and containers that will hold your content, you have to manually style each and every one of them—creating who knows how many different classes and tinkering with them to reach that perfect look. If only there was a way to make this process simpler.  
 
 Well, there is. In fact, that's exactly what UI frameworks are for.
 
@@ -24,7 +24,7 @@ Well, there is. In fact, that's exactly what UI frameworks are for.
 <caption><small>
   Figure 1: A picture of the Pick-A-Brick wall at the an unspecified Disneyland.<br>
   <em>Source: <a href="https://www.reddit.com/r/lego/comments/43q0s6/the_pick_a_brick_wall_at_the_lego_store_at/" target="_blank">u/Bike-Mechanic-Man, Reddit.com</a></em>
-</small></caption>
+</small></caption>  
 
 To understand what UI frameworks are, we can think of them in terms of Lego bricks. Imagine your website as a house that you want to build. Building your website from scratch is akin to manually designing and creating each individual Lego brick you use to make that house—the size, shape, color, and every other attribute of every single brick. This is, of course, a lot of work, but it grants you unlimited flexibility in how you build. In comparison, using a UI framework is like going to a Lego store and sourcing your bricks from their Pick-a-Brick wall. There's a wide variety of bricks and pieces that have already been designed and manufactured, and you can simply use those parts to build your house. In the event that they don't have a brick that perfectly suits your needs, you can still create your own or modify an existing one. Ultimately, UI frameworks are meant to save you the time and effort of building every component of your website from scratch, allowing you to focus on the fine-tuning and styling to make it your own. There are countless UI frameworks in widespread use across the internet, but the one I want to focus on today is called Bootstrap.
 
@@ -34,7 +34,7 @@ To understand what UI frameworks are, we can think of them in terms of Lego bric
 <caption><small>
   Figure 2: The official Bootstrap logo.<br>
   <em>Source: <a href="https://getbootstrap.com/docs/5.0/about/brand/" target="_blank">Bootstrap</a></em>
-</small></caption>
+</small></caption>  
 
 Bootstrap is one of the most popular UI frameworks in use today. First created by developers at Twitter in 2011, it has evolved into an open-source framework that packs classes for CSS styling and JavaScript functionality into one massive library that you can use to build your website. There's not much else to say that hasn't been covered in the previous section, so let's jump straight into how you can use Bootstrap for your own projects and look at some examples.
 
@@ -58,7 +58,7 @@ Buttons serve a variety of purposes, from submitting information and downloading
 <img src="../img/bootstrap/button-default.png" width="400" alt="A basic HTML button and a Bootstrap button in their default state.">  
 <caption><small>
   Figure 3: A basic HTML button on the left and a Bootstrap button on the right.
-</small></caption>
+</small></caption>  
 
 ```html
 <button>This is a default button.</button>
@@ -69,7 +69,7 @@ Bootstrap buttons feature rounded corners and no borders. It’s a sleek design 
 <img src="../img/bootstrap/button-active.png" width="400" alt="A basic HTML button and a Bootstrap button in their active state.">
 <caption><small>
   Figure 4: A basic HTML button on the left and an active Bootstrap button on the right.
-</small></caption>
+</small></caption>  
 
 As you can see, Bootstrap buttons smoothly transition to a bordered state when clicked, providing a subtle indicator that confirms the user's action. Standard HTML, on the other hand, simply swaps the colors of the borders; the top and left borders switch with the bottom and right. While this can be hard to spot, the top and left edges use a shade of gray, while the bottom and right are solid black. These colors swap when the button is active.
 
@@ -80,7 +80,7 @@ Navbars provide users with a simple and intuitive way to access the different pa
 <img src="../img/bootstrap/navbar-default.png" width="400" alt="A Bootstrap navbar on the top and a basic HTML navbar on the bottom.">
 <caption><small>
   Figure 5: A Bootstrap navbar on the top and a basic HTML navbar on the bottom.
-</small></caption>
+</small></caption>  
 
 ```html
 <nav class="navbar">
@@ -101,7 +101,7 @@ At their core, navbars are just unordered lists. You can see that with Bootstrap
 <img src="../img/bootstrap/navbar-style.png" width="400" alt="A styled Bootstrap navbar on the top and a styled HTML navbar on the bottom.">
 <caption><small>
   Figure 6: A styled Bootstrap navbar on the top and a styled HTML navbar on the bottom.
-</small></caption>
+</small></caption>  
 
 ```html
 <!-- The Bootstrap Navbar -->
@@ -135,7 +135,7 @@ Cards are containers on a website that display content and actions about a singl
 <img src="../img/bootstrap/card-text.png" width="400" alt="A basic Bootstrap card on the top and a basic HTML card on the bottom.">
 <caption><small>
   Figure 7: A basic Bootstrap card on the top and a basic HTML card on the bottom.
-</small></caption>
+</small></caption>  
 
 ```html
 <div class="card">
@@ -153,7 +153,7 @@ Looking at the image above, you can see that the most basic container in HTML is
 <img src="../img/bootstrap/card-image.png" width="400" alt="A Bootstrap card on the top and an HTML card on the bottom, both with an image, a title, some text, and a button.">
 <caption><small>
   Figure 8: A Bootstrap card on the top and an HTML card on the bottom, both with an image, a title, some text, and a button.
-</small></caption>
+</small></caption>  
 
 ```html
 <div class="card" style="width:18rem;">
@@ -187,7 +187,7 @@ You gain access to Bootstrap's library of over 2,000 icons.
 <img src="../img/bootstrap/bootstrap-icons.png" width="400" alt="Bootstrap icons from left to right, top to bottom: Cart, Search, Globe, Instagram, Twitter, Youtube, Android 2, Apple, Linkedin.">
 <caption><small>
   Figure 9: Bootstrap icons from left to right, top to bottom: Cart, Search, Globe, Instagram, Twitter, Youtube, Android 2, Apple, Linkedin.
-</small></caption>
+</small></caption>  
 
 ```html
 <i class="bi bi-cart"></i>
@@ -205,7 +205,7 @@ To add them to your website, all you have to do is visit the official <a href="h
 <img src="../img/bootstrap/dropdown-menu.png" width="400" alt="Dropdown menu from a recreation of the Firefox website I made using Bootstrap.">
 <caption><small>
   Figure 10: Dropdown menu from a recreation of the Firefox website I made using Bootstrap.
-</small></caption>
+</small></caption>  
 
 In this screenshot, each icon on the left-hand side—as well as the upper-right arrows next to 'Extensions and Themes' and 'Support'—are Bootstrap icons. They've been styled with the color ```#ae89ff```. Super simple to use for all kinds of projects, Bootstrap icons are a great way to add those perfect finishing touches to your website.
 
@@ -215,7 +215,7 @@ In this screenshot, each icon on the left-hand side—as well as the upper-right
 <caption><small>
   Figure 11: A man thinking,<br>
   <em>Source: <a href="https://www.istockphoto.com/photo/pensive-thoughtful-contemplating-caucasian-young-man-thinking-about-future-planning-gm1388645967-446222427" target="_blank">iStock by Getty Images</a></em>
-</small></caption>
+</small></caption>  
 
 So, I've spent a lot of time talking about all the things Bootstrap can do and why it's so great, which probably makes you think I'm a huge fan, right? Well, for the past week, we've actually been working with it in class. We practiced making navbars, dropdown menus, cards, and footers, which all culminated in us recreating a website of our choice using the Bootstrap library. After all of that, I can confidently say that I'm not really a fan. Sure, I can definitely see the utility, but I have two main issues with the framework.
 
@@ -226,7 +226,7 @@ To put it simply, working with Bootstrap creates what in my opinion is absolutel
 <img src="../img/bootstrap/bootstrap-nav.png" width="400" alt="A navbar with a dropdown menu made in Bootstrap.">
 <caption><small>
   Figure 12: A navbar with a dropdown menu made in Bootstrap.
-</small></caption>
+</small></caption>  
 
 It's a nice, simple navbar with 4 menu items and a single dropdown menu. Let's take a look at how it's made.
 ```html
@@ -262,7 +262,7 @@ Every single HTML element is packed with a string of classes, and the hierarchy 
 <img src="../img/bootstrap/css-nav.png" width="400" alt="A navbar with a dropdown menu made purely with HTML and CSS.">
 <caption><small>
   Figure 13: A navbar with a dropdown menu made purely with HTML and CSS.
-</small></caption>
+</small></caption>  
 
 ```html
 <nav class="site-nav">

@@ -24,6 +24,7 @@ It’s a classic developer pop quiz, and a great way to understand both your gra
   Figure 1: A picture of a blueprint.<br>
   <em>Source: <a href="https://stock.adobe.com/search?k=blueprint&asset_id=101655538" target="_blank">Adobe Stock</a></em>
 </small></caption>  
+<br>
 
 To understand what design patterns actually are, let's imagine you're an architect designing a new gym. You don't need to invent lockers, nor do you need to calculate how a load-bearing column supports a second-floor weight room from scratch. Architects before you have already solved these structural problems. They've documented the blueprints, safety thresholds, and configurations needed to make all those components work reliably.  
 
@@ -42,6 +43,7 @@ These blueprints generally fall into three main categories:
   Figure 2: A picture of an elegant pattern.<br>
   <em>Source: <a href="https://www.magnific.com/free-vector/abstract-background-with-elegant-pattern_10852064.htm#fromView=keyword&page=1&position=1&uuid=7744b8ea-18bd-4dcb-949c-28daf5e01438&query=Elegant+pattern" target="_blank">Magnific</a></em>
 </small></caption>  
+<br>
 
 Let's move to some more concrete examples. Let's say you're building a feature where updating a user's fitness profile needs to update a navigation bar, trigger a notification, and log an activity event. Without a clear design pattern, you might end up tightly coupling all of those operations directly inside a single update function:
 ```typescript
@@ -77,7 +79,8 @@ Now, your core logic doesn't care who is listening or how many subscribers exist
 <caption><small>
   Figure 3: The Rainbow Gymms Logo<br>
   <em>Source: <a href="https://github.com/rainbow-gyms" target="_blank">Rainbow Gyms</a></em>
-</small></caption> 
+</small></caption>  
+<br>
 
 Talking about theoretical patterns is easy, but applying them in a project is quite literally where theory meets reality. For our final project, my team is building [Rainbow Gyms](https://github.com/rainbow-gyms/rainbow-gyms-nextjs)—a gym session scheduling web app tailored for University of Hawaiʻi students. The goal of Rainbow Gyms is to help students balance academic workloads with personal fitness goals by enabling them to create workout sessions, browse filtered activities by location or workout type, and level up their profiles through community participation.  
 
@@ -104,6 +107,13 @@ const profile = await prisma.profile.findUnique({
 By relying on a single database client instance across server routes, we maintain a stable connection pool and keep database access performant across the entire application.  
 
 ### 2. The Guard Pattern / Authorization Interceptor
+
+<img src="../img/design-patterns/security-guard.png" width="400" alt="A Security Guard.">  
+<caption><small>
+  Figure 4: A Security Guard.<br>
+  <em>Source: <a href="https://eliteguard.com/category/security-guards/" target="_blank">Elite Guard</a></em>
+</small></caption>  
+<br>
 
 Across Rainbow Gyms, we have pages that shouldn't be accessible to just anyone floating around the web—like the session creation page or a user's private workout schedule. Instead of letting an unauthenticated request render a half-broken UI or crash midway through rendering, we put a bouncer at the door using the Guard Pattern (or Authorization Interceptor). A Guard sits right at the very top of our server-side route components, evaluating prerequisites like user authentication and profile setup before handing off control to the page UI.  
 

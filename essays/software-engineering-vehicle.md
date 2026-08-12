@@ -52,4 +52,5 @@ Like I said before, software engineering is not a field of study. It's a tool yo
 
 <hr>
 
+<i>This essay was grammar checked using Google Gemini.</i>  
 <i>All images belong to their respective copyright holders.</i>

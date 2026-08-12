@@ -23,11 +23,11 @@
   "skills": [
     {
       "name": "Languages and Frameworks",
-      "keywords": [ "C", "C++", "Java", "PHP", "SQL" ]
+      "keywords": [ "Boostrap", "C", "C++", "CSS", "HTML", "Java", "JavaScript", "Next.js", "PHP", "TypeScript", "React", "SQL" ]
     },
     {
       "name": "Toolsets/OS",
-      "keywords": [ "Windows 11", "UNIX", "Git/GitHub" ]
+      "keywords": [ "Windows 11", "UNIX", "Git/GitHub", "Gitkraken" ]
     }
   ],
   "education": [
@@ -52,7 +52,8 @@
       "highlights": [
         "Maintain, update, and oversee the ISEC website",
         "Create new and improve existing systems for conference participants",
-        "Provide technical and customer support for conference participants"
+        "Provide technical and customer support for conference participants",
+        "Assist with managing the official ISEC LinkedIn Account"
       ]
     }
   ],
@@ -75,7 +76,7 @@
       "title": "Mānoa Academic Merit Scholarship",
       "date": "2024-Present",
       "awarder": "The University of Hawaii at Manoa",
-      "summary": "Hawai’i residents with a high school cumulative GPA of 3.6 or higher will be considered for a $4,000 scholarship per year. Total $16,000 over 4 years."
+      "summary": "Hawai'i residents with a high school cumulative GPA of 3.6 or higher will be considered for a $4,000 scholarship per year. Total $16,000 over 4 years."
     },
     {
       "title": "Dean's List",

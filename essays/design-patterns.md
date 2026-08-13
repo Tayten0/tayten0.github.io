@@ -146,7 +146,7 @@ By placing these guard conditions right at the entry point of our protected serv
 
 ## The Dark Side of Over-Engineering
 
-#Much like my experience working with UI frameworks where slathering a dozen utility classes onto a single element creates ugly, cluttered code, design patterns carry their own major pitfall: over-engineering. In software development, there's a well-known trap called "patternitis"—the irresistible urge to force complex patterns onto simple problems where a direct solution is infinitely cleaner.  
+Much like my experience working with UI frameworks where slathering a dozen utility classes onto a single element creates ugly, cluttered code, design patterns carry their own major pitfall: over-engineering. In software development, there's a well-known trap called "patternitis"—the irresistible urge to force complex patterns onto simple problems where a direct solution is infinitely cleaner.  
 
 Take our CreateForm component, for instance. It’s a standard form with six inputs allowing students to set up a workout session with a name, workout type, location, start time, group size, and any other additional info. We could have over-engineered this form by wrapping every single input field inside an abstract ``InputHandlerFactoryStrategy`` pattern. But why make life difficult? React's built-in ``useState`` hook handles state updates cleanly and predictably in just a few lines of code.  
 

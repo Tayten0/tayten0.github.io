@@ -88,7 +88,7 @@ In a nutshell, you can think of HTML, CSS, and JavaScript like the parts of a ca
 ## TypeScript: JavaScript, but Better
 
 <img src="../img/typescript/ts-logo.svg" width="400" alt="The Official TypeScript Logo">  
-<i>Figure 4: The Official TypeScript Logo. Source: [microsoft/TypeScript-Website](https://github.com/microsoft/TypeScript-Website/blob/f407e1ae19e5e990d9901ac8064a32a8cc60edf0/packages/TypeScriptlang-org/static/branding/ts-logo-512.svg)</i> 
+<i>Figure 4: The Official TypeScript Logo. Source: [microsoft/TypeScript-Website](https://commons.wikimedia.org/wiki/File:Typescript_logo_2020.svg)</i> 
 
 So, JavaScript seems pretty cool. But if it's thanks to JavaScript and its offshoots that websites even have functionality, how can anything be better than it? Well, that's where TypeScript comes in. TypeScript is one of these offshoots of JavaScript. In more official terms, it's called a superset of JavaScript. This means that it simply builds off of and adds some extra features to the JavaScript language. "But you were just talking about how useful JavaScript was, why would you need to add anything?" Well, to answer that question, let's take a look at some more JavaScript. When you create variables in JavaScript, they can store one of three basic types of data: numbers, strings (characters, words, sentences), and booleans (true or false). When you code in JavaScript, the program simply guesses what type of data your variable is supposed to store.
 ```javascript

@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: "The Use of AI in my Software Engineering Journey"
+title: "You Should Use AI—Just Not Too Much!"
 # All dates must be YYYY-MM-DD format!
 date: 2026-08-11
 published: true
@@ -13,13 +13,25 @@ labels:
 
 ## Introduction
 
+<img src="../img/ai/gemini.png" width="400" alt="The Google Gemini Logo.">  
+<caption><small>
+  Figure 1: The Google Gemini Logo<br>
+  <em>Source: <a href="https://gemini.google/about/" target="_blank">Google Gemini</a></em>
+</small></caption>  
+
 If you’ve spent any time at all on the internet over the last few years, you’ve probably heard the doomsday prophecies: AI is going to take our jobs, write all our code, and make software engineers and programmers completely obsolete. But if you actually sit down and try to use these tools to build something—or in other words, you try vibe coding—you quickly realize that AI isn't really all that it's cracked up to be. AI can create code that works, but it tends to be insecure and hard to update. That's why you tend to see stories about large tech companies like Google and Meta rehiring the software engineers they laid off. However, while AI might not have replaced software engineers, that doesn't mean it hasn't shaken up the field. 
 
 Instead of spending hours skimming through forum posts for a specific bug fix, developers can use Large Language Models (LLMs) like ChatGPT or Google Gemini to contextualize our specific codebases and provide feedback tailored for them. Throughout the ICS 314 course, I used Google Gemini 3.5. It served as a supplementary tool to help me debug code, break down concepts I didn't quite understand at first like TypeScript array functions, and grammar-check my essays. But there's a difference between using AI to help you learn and using it to replace learning altogether. 
 
 ## Personal Experience with AI
 
-AI served as a valuable tool to help me throughout the ICS 314 course, especially because of the sheer quantity of assignments in this course. I didn't use it for everything, but where I did use it, it was incredibly helpful. Here is a look at how I used AI across the various parts of this course:
+<img src="../img/ai/thinking.jpg" width="400" alt="A Man Thinking.">  
+<caption><small>
+  Figure 2: A Man Thinking<br>
+  <em>Source: <a href="https://www.istockphoto.com/photo/pensive-thoughtful-contemplating-caucasian-young-man-thinking-about-future-planning-gm1388645967-446222427" target="_blank">iStock by Getty Images</a></em>
+</small></caption>  
+
+AI served as a valuable tool to help me throughout the ICS 314 course, especially because of the sheer quantity of assignments in this course. I didn't use it for everything, but where I did use it, it was incredibly helpful. Here's a look at how I used AI across the various parts of this course:
 
 ### Experience Quizzes
 
@@ -63,7 +75,7 @@ Like using Gemini to provide coding examples, I'd often ask Gemini to explain wh
 
 ### Writing code
 
-Outside of using Gemini to write example code to help me understand key concepts and methods, and to debug my code, I also used it to write replacement code for the sections causing errors. This was mostly for the final project, where I'd ask Gemini to help write replacement code whenever something broke, especially when it came to the Prisma code for the database. For example, I'd ask Gemini "Please identify the error in this code: &lt;Broken Code&gt; and fix it." Without Gemini, a lot of my final project would've remained broken.
+Aside from using Gemini to understand key concepts, write example code, and debug, I also used it to write replacement code for sections that were throwing errors. This was especially true for my final project, where I relied on Gemini whenever something broke—particularly with the Prisma database code. For example, I'd ask, "Please identify the error in this code: &lt;Broken Code&gt; and fix it." Gemini would provide small snippets to resolve the issues, which I'd then incorporate into my project. Most of these problems were caused by minor syntax mistakes, like a missing bracket or parenthesis, though I occasionally ran into critical logic errors I had missed. Without Gemini, many features of my final project would've remained broken.
 
 ### Documenting code
 
@@ -71,7 +83,7 @@ I did not use AI to write any comments in my code. This was because I barely wro
 
 ### Quality assurance e.g. “What’s wrong with this code &lt;code here&gt;” or “Fix the ESLint errors in &lt;code here&gt;”
 
-As shown in the other subsections, I used Gemini quite extensively to help with debugging, although I didn't need it to help with my ESLint errors.
+I did use AI to help debug my code, which I've already covered extensively in other subtopics in this section. However, I didn't use Gemini to fix ESLint errors because most of them were easy enough to handle on my own. Extra whitespace and variables of type "any" are the only errors I can recall off the top of my head, but hopefully, the straightforward nature of those errors gives you an idea of why I didn't feel the need to use AI to resolve them.
 
 ### Other uses in ICS 314 not listed
 
@@ -79,13 +91,31 @@ To my recollection, I did not use AI in any ways that haven't already been liste
 
 ## Impact on Learning and Understanding
 
+<img src="../img/ai/teacher.webp" width="400" alt="A Teacher Helping a Student.">  
+<caption><small>
+  Figure 3: A Teacher Helping a Student<br>
+  <em>Source: <a href="https://www.ziprecruiter.com/career/Teacher-Tutor/What-Is-How-to-Become" target="_blank">ZipRecruiter</a></em>
+</small></caption> 
+
 So, did using AI stunt my learning, or enhance it? Honestly, it was a massive enhancement, but in a way, it came with its own learning curve. Using Gemini was like having a really good—albeit occasionally confused—tutor sitting next to me at all times. It helped with my comprehension by drastically reducing the time I'd spend stuck fixing errors. Instead of being hit with a wall of red text in my console and just calling it a night, I could ask Gemini to explain what the error was in plain English. This allowed me to keep working. Of course, it still challenged my own understanding of code by forcing me to review the code I was being handed. Just as you can't trust everything an AI tells you, you can't just blindly trust whatever code it spits out. I feel that using AI helped me to improve my code-reading skills because I was constantly reviewing whatever code it gave me to make sure it worked properly.
 
 ## Practical Applications
 
+<img src="../img/ai/squinting-meme.jpg" width="400" alt="A version of the 'What am I reading' meme.">  
+<caption><small>
+  Figure 4: A version of the 'What am I reading' meme<br>
+  <em>Source: Me (made with Microsoft Designer)</em>
+</small></caption> 
+
 Outside of ICS 314, the practical applications of AI in real-world software engineering are undeniable. In real-world projects, the hardest part isn't usually writing the code; it's understanding the massive, undocumented system you just inherited. AI tools are proving incredibly effective at mapping out complex codebases, identifying security vulnerabilities, or simply deciphering a multi-hundred-line function. That's coming from personal experience, since I've used it to learn how the code written by my predecessors worked. It's saved me from having to read through thousands of lines of poorly formatted code, and if it can do that much for a simple web developer like me, just imagine the good it can do in other fields.
 
 ## Challenges and Opportunities
+
+<img src="../img/ai/big-picture.png" width="400" alt="A representation of the phrase 'Seeing the Bigger Picture'.">  
+<caption><small>
+  Figure 5: A representation of the phrase 'Seeing the Bigger Picture'<br>
+  <em>Source: <a href="https://aboutmeditation.com/using-meditation-to-see-the-bigger-picture/" target="_blank">About Meditation</a></em>
+</small></caption> 
 
 Of course, it isn't all sunshine and rainbows. The biggest problem with using AI is that it doesn't have access to the whole picture. There were times I'd ask Gemini to help me resolve an error or give me suggestions on how I could implement something, and it would either give me code that didn't work with the rest of my assignment or didn't meet the requirements. This was especially apparent with the Final Project, where Gemini didn't have access to the dozens of other components, schemas, and pages that worked in tandem with the chunk of code I was trying to fix. Another challenge is the risk of over-reliance. It's incredibly tempting to let the AI do the heavy lifting when you're tired, which can lead to a degradation of your own problem-solving capabilities. However, the opportunities are massive. I can imagine a future where AI is integrated even more seamlessly into IDEs—not just as an autocomplete tool, but as a real-time tutor that prompts the student to think. Imagine an AI that, instead of giving you the answer, highlights a line of code and asks, "Are you sure this array won't be null here?"
 
@@ -100,9 +130,17 @@ So, what's the verdict? Are we all going to be replaced by AI overlords? No, I d
 
 ## Conclusion
 
+<img src="../img/ai/hammer.jpg" width="400" alt="A Hammer Being Held.">  
+<caption><small>
+  Figure 6: A Hammer Being Held<br>
+  <em>Source: <a href="https://www.hobbyfarms.com/types-of-hammers/" target="_blank">Hobby Farms</a></em>
+</small></caption> 
+
 At the end of the day, AI tools like Google Gemini are exactly that—tools. A hammer can build a house, but it can't draw the blueprints. My experience in ICS 314 has shown me that AI can drastically accelerate the learning process, untangle complex bugs, and translate cryptic documentation into plain English. But it can't replace the critical thinking required to create good software. To optimize AI in future courses, I don't think professors should ban it. Instead, they should teach students how to use it responsibly. Just like power tools, the calculator, and the humble computer, AI can be used to help us be more efficient and productive. But in order for it to do so, we need to learn how to use it properly.
 
 <hr>
 
 <i>This essay was grammar checked using Google Gemini.</i>  
-<i>All images belong to their respective copyright holders.</i>
+<i>All images belong to their respective copyright holders.</i>  
+  
+<i>This essay was revised and updated on August 12, 2026.</i> 

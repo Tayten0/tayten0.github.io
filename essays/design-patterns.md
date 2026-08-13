@@ -77,7 +77,7 @@ Now, your core logic doesn't care who is listening or how many subscribers exist
 
 <img src="../img/design-patterns/rainbow-gyms.png" width="400" alt="The Rainbow Gyms Logo.">  
 <caption><small>
-  Figure 3: The Rainbow Gymms Logo<br>
+  Figure 3: The Rainbow Gyms Logo<br>
   <em>Source: <a href="https://github.com/rainbow-gyms" target="_blank">Rainbow Gyms</a></em>
 </small></caption>  
 <br>

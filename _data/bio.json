@@ -6,7 +6,7 @@
     "email": "tayten.yau@gmail.com",
     "phone": "",
     "website": "https://tayten0.github.io",
-    "summary": "I am a 3rd-year undergraduate student at the University of Hawaii at Manoa pursuing a Bachelor of Science in Computer Science. I'm on track to graduate in Fall 2027. Currently a full-stack developer for the <a href='https://www.isec-society.org/index.php'>ISEC Society</a>, but looking to expand my experience and skillset beyond just web development.",
+    "summary": "I am a 3rd-year undergraduate student at the University of Hawaii at Manoa pursuing a Bachelor of Science in Computer Science. I'm on track to graduate in Fall 2027. Currently a full-stack developer for the <a href='https://www.isec-society.org/index.php' target='_blank'>ISEC Society</a>, but looking to expand my experience and skillset beyond just web development.",
     "location": { "address": "", "postalCode": "96816", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
     "profiles": [
       { "network": "github", "username": "Tayten0", "url": "http://github.com/tayten0" },

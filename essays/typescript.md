@@ -23,7 +23,7 @@ Before we can talk about TypeScript, we have to talk about JavaScript. So, what 
 ### Structuring with HTML
 
 <img src="../img/typescript/html-logo.svg" width="400" alt="The Official HTML Logo">  
-<i>Figure 1: The Official HTML Logo. Source: [W3C](https://www.w3.org/html/logo/index.html)</i>  
+<i>Figure 1: The Official HTML Logo. Source: <a href="https://www.w3.org/html/logo/index.html" target="_blank">W3C</a></i>  
 
 HTML is a language used to create the elements you see on a website, from the text to the hidden boxes that hold that text, to the images and buttons on a screen. Everything you see on a screen is created using HTML. For example, the code below would create a webpage that displays nothing but a single line of text:  
 ```html
@@ -35,7 +35,7 @@ HTML is a language used to create the elements you see on a website, from the te
 ### Styling with CSS
 
 <img src="../img/typescript/css-logo.svg" width="400" alt="The Official CSS Logo">  
-<i>Figure 2: The Official CSS Logo. Source: [CSS-Next/logo.css](https://github.com/CSS-Next/logo.css/blob/main/css.square.svg)</i>  
+<i>Figure 2: The Official CSS Logo. Source: <a href="https://github.com/CSS-Next/logo.css/blob/main/css.square.svg" target="_blank">CSS-Next/logo.css</a></i>  
 
 CSS is the language used to style your website. No one wants to see a bland website made up of just generic text and basic geometric shapes. CSS helps web developers add a little spice and flavor to their sites. From the weights and fonts of text to the shapes and sizes of images and buttons, CSS is what makes a website go from an eye-sore to an eye-pleaser. For example, the code below would modify our HTML and make the text red and bolded:
 ```html
@@ -55,7 +55,7 @@ CSS is the language used to style your website. No one wants to see a bland webs
 ### Adding Logic with JavaScript
 
 <img src="../img/typescript/js-logo.png" width="400" alt="The Unofficial JavaScript Logo">  
-<i>Figure 3: The Unofficial JavaScript Logo. Source: [voodootikigod/logo.js](https://github.com/voodootikigod/logo.js)</i>  
+<i>Figure 3: The Unofficial JavaScript Logo. Source: <a href="https://github.com/voodootikigod/logo.js" target="_blank">voodootikigod/logo.js</a></i>  
 
 Finally, there's JavaScript. Unlike HTML and CSS, JavaScript isn't used to create or modify the structure of elements on a webpage. Instead, it uses the elements created by HTML to collect, store, and modify data. That is what makes it the most important language in web development.
 ```html
@@ -88,7 +88,7 @@ In a nutshell, you can think of HTML, CSS, and JavaScript like the parts of a ca
 ## TypeScript: JavaScript, but Better
 
 <img src="../img/typescript/ts-logo.svg" width="400" alt="The Official TypeScript Logo">  
-<i>Figure 4: The Official TypeScript Logo. Source: [microsoft/TypeScript-Website](https://commons.wikimedia.org/wiki/File:Typescript_logo_2020.svg)</i> 
+<i>Figure 4: The Official TypeScript Logo. Source: <a href="https://github.com/microsoft/TypeScript-Website/blob/v2/packages/typescriptlang-org/static/branding/ts-logo-512.svg" target="_blank">microsoft/TypeScript-Website</a></i> 
 
 So, JavaScript seems pretty cool. But if it's thanks to JavaScript and its offshoots that websites even have functionality, how can anything be better than it? Well, that's where TypeScript comes in. TypeScript is one of these offshoots of JavaScript. In more official terms, it's called a superset of JavaScript. This means that it simply builds off of and adds some extra features to the JavaScript language. "But you were just talking about how useful JavaScript was, why would you need to add anything?" Well, to answer that question, let's take a look at some more JavaScript. When you create variables in JavaScript, they can store one of three basic types of data: numbers, strings (characters, words, sentences), and booleans (true or false). When you code in JavaScript, the program simply guesses what type of data your variable is supposed to store.
 ```javascript
@@ -133,7 +133,7 @@ The program will throw an error before the code even runs. This one modification
 ## Thoughts on TypeScript
 
 <img src="../img/typescript/thinking.jpg" width="400" alt="A Man Thinking">  
-<i>Figure 5: A Man Thinking. Source: [iStock by Getty Images](https://www.istockphoto.com/photo/pensive-thoughtful-contemplating-caucasian-young-man-thinking-about-future-planning-gm1388645967-446222427)</i> 
+<i>Figure 5: A Man Thinking. Source: <a href="https://www.istockphoto.com/photo/pensive-thoughtful-contemplating-caucasian-young-man-thinking-about-future-planning-gm1388645967-446222427" target="_blank">iStock by Getty Images</a></i> 
 
 At first glance, the syntax for TypeScript seems quite intuitive and easy to understand. However, I'm not a big fan of some of the styling practices used in the language. An example of this involves function declarations. It's often considered better practice to use named function expressions instead of function declarations, as seen below:
 ```typescript
@@ -179,7 +179,7 @@ All three of these code blocks will print "Hello World!" to the command terminal
 ## Workouts of the Day?
 
 <img src="../img/typescript/brain.jpg" width="400" alt="A Brain Working Out">  
-<i>Figure 6: A Brain Working Out. Source: [Vitalii Petrenko/Shutterstock.com](https://www.shutterstock.com/image-vector/brain-training-rock-muscles-barbell-modern-757605628)</i> 
+<i>Figure 6: A Brain Working Out. Source: <a href="https://www.shutterstock.com/image-vector/brain-training-rock-muscles-barbell-modern-757605628" target="_blank">Vitalii Petrenko/Shutterstock.com</a></i> 
 
 With the start of our exploration into TypeScript came the introduction of "Workouts of the Day" (WODs). These were a part of a larger concept my professor called "Athletic Software Engineering." In simple terms, it's the idea that software engineering education should focus on improving a student’s competency in the development environment first, before moving on to higher-level software design and project management. You need to make sure students have the tools they need to solve a problem before asking them to solve it. If you give a student a toolbox, teach them how to use those tools, and then ask them to fix a broken door, they’ll think creatively about how they can use the tools at their disposal to fix it. If you instead just tell the student to fix the door without any foundational knowledge, they’ll just go to a store and try to find the specific tool they need for that one job. They don’t implement creativity in developing the solution. Instead, they just look for the most basic, straightforward one, which isn't always the most efficient and can be detrimental to larger projects. The Workouts of the Day aim to put the "athletic" in his "Athletic Software Engineering" philosophy. They’re time-limited programming challenges meant to test a student’s skills and efficiency. As a first impression, I think having some sort of mini code practice outside of larger homework assignments or projects could be helpful. It’d serve as good practice and a way to help make sure that the concepts and code we learn actually stick in our heads. However, we’ve only had two WODs so far as of the time of writing this, and both were quite simple, so I can’t say whether or not they’ve actually been helpful. Only time will tell, and I’ll wait to complete several more WODs before I make any sort of judgment on them.
 

@@ -39,7 +39,7 @@ As a solo project, I didn't learn much in terms of teamwork and collaboration, b
 
 To learn more about the Club Hale project, feel free to visit the <a href="https://club-hale.github.io/" target="_blank">Club Hale Project Homepage</a>. Otherwise, you can find some other useful links below:  
 
-<a href="https://club-hale-btyyxkn8n-club-hale.vercel.app/" target="_blank">The Club Hale Live Deployment</a>  
+<a href="https://club-hale.vercel.app/" target="_blank">The Club Hale Live Deployment</a>  
 <a href="https://github.com/club-hale" target="_blank">The Club Hale GitHub Organization</a>  
 <a href="https://github.com/club-hale/club-hale" target="_blank">The Club Hale Source Code</a>  
 

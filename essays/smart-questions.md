@@ -13,7 +13,7 @@ labels:
 ## Introduction
 
 <img src="../img/smart-questions/duke.jpg" width="400" alt="A Portrait of Pierre-Marc-Gaston de Lévis">  
-<i>Figure 1: A Portrait of Pierre-Marc-Gaston de Lévis. Source: [Académie Française (The French Academy)](https://www.academie-francaise.fr/les-immortels/pierre-marc-gaston-de-levis)</i>  
+<i>Figure 1: A Portrait of Pierre-Marc-Gaston de Lévis. Source: <a href="https://www.academie-francaise.fr/les-immortels/pierre-marc-gaston-de-levis" target="_blank">Académie Française (The French Academy)</a></i>  
 
 > <i>Il est encore plus facile de juger de l'esprit d'un homme par ses questions que par ses réponses.<i>  
 > ("It is easier to judge the mind of a man by his questions rather than his answers.")  
@@ -26,12 +26,12 @@ However, if you're a man named Eric Raymond, then the answer is a solid "yes." I
 
 ## Everything You Need to Know About Smart Questions
 
-If you're like me from 15 minutes ago and this is the first time you've ever heard the term "smart question," you're probably wondering what that is. Eric Raymond thoroughly describes them in his essay, ["How To Ask Questions The Smart Way,"](http://www.catb.org/esr/faqs/smart-questions.html#intro) but I won't make you read all that. To put it simply, smart questions are questions that respect the time, intelligence, and culture of the people you'd like to answer your question (presumably, experts in that field). Smart questions aren't focused on the complexity of a problem or inquiry so much as they are on the precision of, the effort put into, and the attitude within the question itself. With that in mind, let's take a quick look into how exactly one goes about writing a smart question.
+If you're like me from 15 minutes ago and this is the first time you've ever heard the term "smart question," you're probably wondering what that is. Eric Raymond thoroughly describes them in his essay, <a href="http://www.catb.org/esr/faqs/smart-questions.html#intro" target="_blank">"How To Ask Questions The Smart Way,"</a> but I won't make you read all that. To put it simply, smart questions are questions that respect the time, intelligence, and culture of the people you'd like to answer your question (presumably, experts in that field). Smart questions aren't focused on the complexity of a problem or inquiry so much as they are on the precision of, the effort put into, and the attitude within the question itself. With that in mind, let's take a quick look into how exactly one goes about writing a smart question.
 
 ### Precision
 
 <img src="../img/smart-questions/target.png" width="400" alt="A Red Target">  
-<i>Figure 2: A Red Target. Source: [The Target Corporation](https://corporate.target.com/media/collection/b-roll-and-press-materials/target-logos)</i>  
+<i>Figure 2: A Red Target. Source: <a href="https://corporate.target.com/media/collection/b-roll-and-press-materials/target-logos" target="_blank">The Target Corporation</a></i>  
 
 Smart questions need to be precise. You want to provide enough information for potential helpers to understand the problem and the circumstances surrounding it, but you don't want to overwhelm them with irrelevant information that will only serve as extra work for them to do. The goal is to allow experts to diagnose your problem quickly so that they can also provide an answer quickly, and that starts with being specific and objective. Describe the raw symptoms of your issue instead of any personal theories you might have. After all, if your theories were any good, you wouldn't be asking for help. Begin by using an "object-deviation" description in your subject header[^2]. Describe what is being affected and what it's doing differently. This helps people understand both what you're having a problem with and what the problem is at a glance. From there, prioritize relevance over volume in the body of your question. Instead of dumping pages of code or logs, just include the bare minimum for a reproducible test case to isolate your issue. To wrap things up, provide your context chronologically. If your problem involves a sequence of events, describe the steps that led up to the error in chronological order to help the experts trace your steps.  
 
@@ -40,7 +40,7 @@ If you still don't understand why precision is important, think of it this way: 
 ### Effort
 
 <img src="../img/smart-questions/effort.jpg" width="400" alt="A Man Pushing a Boulder up a Slope">  
-<i>Figure 3: A Man Pushing a Boulder up a Slope. Source: [Lingoland](https://lingolandedu.com/en/english-english-dictionary/effort)</i>  
+<i>Figure 3: A Man Pushing a Boulder up a Slope. Source: <a href="https://lingolandedu.com/en/english-english-dictionary/effort" target="_blank">Lingoland</a></i>  
 
 If you have a problem, you should put a decent amount of effort into trying to solve that problem on your own before you go asking strangers on the internet for help, and your question should reflect that you've done so. Do your homework: search the web, read the relevant manuals, check FAQs, and search through existing project archives. If you're having an issue with a widely known system, project, or device, chances are that someone else also had the same issue. If, after doing all, that you still haven't found a solution, make sure you list what you've done in your question. What did you search? What manuals or FAQs did you read? What forums did you comb through, and what fixes did you try to make that didn't work? Finally, if someone does answer your question and solves your problem, send a follow-up to the forum or mailing list letting everyone know your issue was resolved and thanking them for their help. By putting in the effort and showing it, you demonstrate to everyone that you aren't just some lazy bum looking to get other people to do your work for you. Instead, you're showing that you actually care about this issue and that you want to learn and improve.  
 
@@ -49,7 +49,7 @@ As the saying goes: <i>"You get out of it what you put into it"</i>, and if you 
 ### Attitude
 
 <img src="../img/smart-questions/man.jpg" width="400" alt="A Man Sitting in Front of His Laptop, Thinking">  
-<i>Figure 4: A Man Sitting in Front of His Laptop, Thinking. Source: [Adobe Stock](https://stock.adobe.com/search?k=person+thinking+in+front+of+computer&asset_id=321418053)</i>  
+<i>Figure 4: A Man Sitting in Front of His Laptop, Thinking. Source: <a href="https://stock.adobe.com/search?k=person+thinking+in+front+of+computer&asset_id=321418053" target="_blank">Adobe Stock</a></i>  
 
 In the wonderful world of online forums, your attitude will often determine whether you're treated as a serious participant or—in Eric's words—a "loser," to be ignored and metaphorically spit on. So how do you avoid being labeled as a "loser"? Well, for starters, avoid entitlement and urgency in your questions. If your problem needs to be solved quickly, that's a "you" problem, not the experts'. Don't act like you're entitled to a free solution, because you're not. Contrary to what you might think, adding urgency will only make people less likely to answer your question. At the same time, don't overcorrect into groveling, constant apologizing, or self-deprecation. No one wants to attend your pity party, and it only distracts from the actual technical issue. Make sure to avoid using slang or instant-messaging shortcuts as well. Typing "u" instead of "you" doesn't make you seem cool; it just shows that you're too lazy to type two extra letters. If the feedback you get is a blunt "RTFM" (Read the Fucking Manual) or "STFW" (Search the Fucking Web), handle it with maturity instead of trying to be defensive. If that's their reply, chances are you failed to do your homework before asking your question, and the answer to your problem is probably much simpler than you might expect—simple enough that an expert thinks you could solve it by just reading the manual on your own. Ultimately, just remember that the people answering your questions are volunteers, not your personal customer service desk. Try to keep your questions easy to engage with and interesting to solve. Give them a puzzle, not a homework assignment.  
 
@@ -62,9 +62,9 @@ Hopefully, you get the basic gist of how to ask a smart question. Of course, I'm
 ## A Smart Guy Asked a Smart Question
 
 <img src="../img/smart-questions/check.png" width="400" alt="A Green Check Mark">  
-<i>Figure 5: A Green Check Mark. Source: [Gregory Maxwell](https://commons.wikimedia.org/wiki/File:Green_check.svg)</i>  
+<i>Figure 5: A Green Check Mark. Source: <a href="https://commons.wikimedia.org/wiki/File:Green_check.svg" target="_blank">Gregory Maxwell</a></i>  
 
-To see what a smart question actually looks like in the wild, let's look at a good example: ["How do I programmatically enable a stylesheet?"](https://stackoverflow.com/questions/79952781/how-do-i-programmatically-enable-a-stylesheet), asked by a user named [Finley Baker](https://stackoverflow.com/users/19216516/finley-baker). 
+To see what a smart question actually looks like in the wild, let's look at a good example: <a href="https://stackoverflow.com/questions/79952781/how-do-i-programmatically-enable-a-stylesheet" target="_blank">"How do I programmatically enable a stylesheet?"</a>, asked by a user named <a href="https://stackoverflow.com/users/19216516/finley-baker" target="_blank">Finley Baker</a>. 
 
 ### What was the Question?
 
@@ -124,9 +124,9 @@ So, in response to Finley's smart question, Kaiido provided a detailed and helpf
 ## A Dumb Guy Asked a Dumb Question
 
 <img src="../img/smart-questions/x.png" width="400" alt="A Red X">  
-<i>Figure 6: A Red X. Source: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Red_X.svg)</i>  
+<i>Figure 6: A Red X. Source: <a href="https://commons.wikimedia.org/wiki/File:Red_X.svg" target="_blank">Wikimedia Commons</a></i>  
 
-Now that we know what a smart question looks like in the wild, let's look at a bad example: "Trying to bypass an anticheat cus why not", asked by a user named [xvi](https://stackoverflow.com/users/32815992/xvi).  
+Now that we know what a smart question looks like in the wild, let's look at a bad example: "Trying to bypass an anticheat cus why not", asked by a user named <a href="https://stackoverflow.com/users/32815992/xvi" target="_blank">xvi</a>.  
 <i>*The Link to xvi's post has removed. Please see the disclaimer at the bottom of the essay.</i>
 
 ### What was the Question?
@@ -164,7 +164,7 @@ So, what kind of answer did xvi get? None. His question was dumb—it showed a l
 ## Am I a Comp Sci Major or an English One?
 
 <img src="../img/typescript/thinking.jpg" width="400" alt="A Man Thinking">  
-<i>Figure 7: A Man Thinking. Source: [iStock by Getty Images](https://www.istockphoto.com/photo/pensive-thoughtful-contemplating-caucasian-young-man-thinking-about-future-planning-gm1388645967-446222427)</i> 
+<i>Figure 7: A Man Thinking. Source: <a href="https://www.istockphoto.com/photo/pensive-thoughtful-contemplating-caucasian-young-man-thinking-about-future-planning-gm1388645967-446222427" target="_blank">iStock by Getty Images</a></i> 
 
 "Tayten, I thought you said you were a computer science major. Why are you providing such an in-depth analysis into how to properly ask questions? Isn't it an English major's job to analyze sentence structure and wording?" Well, if you've read this much and it still hasn't clicked why asking smart questions is important, let me spell it out for you. I mentioned earlier that the people who comb through online forums are volunteers. These volunteer experts are passionate about what they do, and they're more than happy to share their knowledge with the next generation of experts whom they may call colleagues one day. But time is a valuable resource—one that we can never get more of. There are so many people who need help, so many questions that need answers, yet only so many experts to answer them. As a result, they pick and choose. They'll choose the questions they think are worth answering and ignore the ones they believe to be unproductive and a waste of time. Asking smart questions is how you distinguish yourself. It makes it more likely that you'll get a response, because you've shown that you're someone worth helping. You put the effort into trying to solve your problem beforehand, you made your question precise by providing exactly what an expert needs to know, and you behaved yourself while demonstrating a willingness to learn. THAT'S someone worth responding to. Not someone just trying to push the burdens of their problems onto someone else.
 
@@ -181,7 +181,7 @@ While writing this essay, xvi's original post was removed by Stack Overflow mode
 <img src="../img/smart-questions/proof.png" width="400" alt="A Screenshot of a the Results from Searching xvi's Post Title in my Search History">  
 <i>Figure 8: A Screenshot of a the Results from Searching xvi's Post Title in my Search History.</i>  
 
-As you can see, the Stack Overflow URL that once redirected to their page now displays a "Page not found" error. Below is a screenshot of what appears if you try to follow the [original link to his post](https://stackoverflow.com/questions/79954245/trying-to-bypass-an-anticheat-cus-why-not).  
+As you can see, the Stack Overflow URL that once redirected to their page now displays a "Page not found" error. Below is a screenshot of what appears if you try to follow the <a href="https://stackoverflow.com/questions/79954245/trying-to-bypass-an-anticheat-cus-why-not" target="_blank">original link to his post</a>.  
 
 <img src="../img/smart-questions/gone.png" width="400" alt="A Screenshot of a the 'Page not Found' That Appears When you try to Follow the Original Link">  
 <i>Figure 9: A Screenshot of a the 'Page not Found' That Appears When you try to Follow the Original Link.</i>  
@@ -198,7 +198,7 @@ In case their account is also removed or deleted, I have attached a screenshot o
 
 <hr>
 
-[^1]: [Wikipedia, "Pierre Marc Gaston de Lévis, Duke of Lévis"](https://en.wikipedia.org/wiki/Pierre_Marc_Gaston_de_L%C3%A9vis,_Duke_of_L%C3%A9vis#:~:text=The%20quotation%20often,%5B1%5D)
-[^2]: [Eric Raymond, "How To Ask Questions The Smart Way", 21 May 2014](http://www.catb.org/esr/faqs/smart-questions.html#intro)
-[^3]: [MDN Web Docs, "StyleSheet: disabled property"](https://developer.mozilla.org/en-US/docs/Web/API/StyleSheet/disabled)
-[^4]: [W3C, "CSS Object Model (CSSOM) Module Level 1", 1 May 2026](https://drafts.csswg.org/cssom/#concept-css-style-sheet-disabled-flag)
+[^1]: <a href="https://en.wikipedia.org/wiki/Pierre_Marc_Gaston_de_L%C3%A9vis,_Duke_of_L%C3%A9vis#:~:text=The%20quotation%20often,%5B1%5D" target="_blank">Wikipedia, "Pierre Marc Gaston de Lévis, Duke of Lévis"</a>
+[^2]: <a href="http://www.catb.org/esr/faqs/smart-questions.html#intro" target="_blank">Eric Raymond, "How To Ask Questions The Smart Way", 21 May 2014</a>
+[^3]: <a href="https://developer.mozilla.org/en-US/docs/Web/API/StyleSheet/disabled" target="_blank">MDN Web Docs, "StyleSheet: disabled property"</a>
+[^4]: <a href="https://drafts.csswg.org/cssom/#concept-css-style-sheet-disabled-flag" target="_blank">W3C, "CSS Object Model (CSSOM) Module Level 1", 1 May 2026</a>

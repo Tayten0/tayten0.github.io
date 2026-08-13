@@ -31,4 +31,4 @@ My old school laptop died a while ago, so the only version I could recover was a
 
 <hr>
 
-Source: <a href="https://github.com/tayten0/mountain-game"><i class="large github icon "></i>tayten0/mountain-game</a>
+Source: <a href="https://github.com/tayten0/mountain-game" target="_blank"><i class="large github icon "></i>tayten0/mountain-game</a>

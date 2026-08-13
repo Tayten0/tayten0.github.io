@@ -82,7 +82,7 @@ Now, your core logic doesn't care who is listening or how many subscribers exist
 </small></caption>  
 <br>
 
-Talking about theoretical patterns is easy, but applying them in a project is quite literally where theory meets reality. For our final project, my team is building [Rainbow Gyms](https://github.com/rainbow-gyms/rainbow-gyms-nextjs)—a gym session scheduling web app tailored for University of Hawaiʻi students. The goal of Rainbow Gyms is to help students balance academic workloads with personal fitness goals by enabling them to create workout sessions, browse filtered activities by location or workout type, and level up their profiles through community participation.  
+Talking about theoretical patterns is easy, but applying them in a project is quite literally where theory meets reality. For our final project, my team is building <a href="https://github.com/rainbow-gyms/rainbow-gyms-nextjs" target="_blank">Rainbow Gyms</a>—a gym session scheduling web app tailored for University of Hawaiʻi students. The goal of Rainbow Gyms is to help students balance academic workloads with personal fitness goals by enabling them to create workout sessions, browse filtered activities by location or workout type, and level up their profiles through community participation.  
 
 We didn't start the project with a rigid checklist forcing patterns into places they didn't belong. Instead, as our codebase expanded, design patterns just kinda naturally emerged out of necessity to keep our application clean, secure, and scalable.  
 

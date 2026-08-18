@@ -88,4 +88,4 @@ At the end of the day, a programmer is just someone who can write code to make a
 
 <hr>
 
-[^1]: <a href="" target="_blank" referrerpolicy="no-referrer"><em>Structure and Interpretation of Computer Programs</em>, 1996 (p. xxii)</a>
+[^1]: <a href="https://web.mit.edu/6.001/6.037/sicp.pdf" target="_blank" referrerpolicy="no-referrer"><em>Structure and Interpretation of Computer Programs</em>, 1996 (p. xxii)</a>
